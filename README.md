@@ -2,14 +2,32 @@
 
 **Cybersecurity Researcher | AI-Powered Security Tooling | Malware Analysis | CTI | Offensive Security Research**
 
-I build practical cybersecurity tools, malware-analysis workflows, and threat intelligence research designed for analysts, defenders, and security engineers.
+I build practical cybersecurity tools, malware-analysis workflows, threat intelligence research, and security testing utilities designed for analysts, defenders, researchers, and security engineers.
 
-My work focuses on:
+I focus on:
 - AI-powered security automation
 - Malware triage and static analysis
 - Cyber Threat Intelligence (CTI)
-- Offensive security research and lab-driven validation
+- Offensive security research
 - Detection-oriented defensive engineering
+
+---
+
+## Table of Contents
+
+- [About Me](#about-me)
+- [Featured Projects](#featured-projects)
+- [Repository Portfolio](#repository-portfolio)
+  - [AI-Powered Security](#ai-powered-security)
+  - [Cyber Threat Intelligence](#cyber-threat-intelligence)
+  - [Malware Analysis Tooling](#malware-analysis-tooling)
+  - [Security Testing and Offensive Research](#security-testing-and-offensive-research)
+  - [System, Networking, and Education Projects](#system-networking-and-education-projects)
+- [Writing and Research](#writing-and-research)
+- [Professional Links](#professional-links)
+- [Current Focus](#current-focus)
+- [Project Navigation](#project-navigation)
+- [Philosophy](#philosophy)
 
 ---
 
@@ -17,14 +35,15 @@ My work focuses on:
 
 I am a cybersecurity researcher and builder focused on creating practical, research-backed tools and workflows that help security teams move faster from raw artifacts to actionable insight.
 
-My GitHub includes:
-- Malware-analysis utilities
-- Automated static-analysis pipelines
-- CTI research repositories
+This GitHub profile includes:
 - AI-assisted security tooling
-- Offensive-security lab and workflow projects
+- Malware-analysis utilities
+- Static-analysis pipelines
+- CTI research repositories
+- Security testing tools
+- Practical research and lab-oriented projects
 
-I also publish technical research and hands-on cybersecurity articles on Medium:
+I also publish technical cybersecurity articles and research on Medium:
 
 **Medium:** [medium.com/@1200km](https://medium.com/@1200km)
 
@@ -32,77 +51,98 @@ I also publish technical research and hands-on cybersecurity articles on Medium:
 
 ## Featured Projects
 
-### AI-Powered Security
-- **[AuditAI](https://github.com/anpa1200/AuditAI)**  
-  AI-powered host vulnerability assessment and security auditing in a Dockerized workflow.
+### [AuditAI](https://github.com/anpa1200/AuditAI)
+AI-powered host vulnerability assessment and security auditing in a Dockerized workflow.
 
-### Cyber Threat Intelligence
-- **[CTI](https://github.com/anpa1200/CTI)**  
-  Open-source cyber threat intelligence reports with evidence-labeled assessments, SOC-oriented guidance, and defensive research.
+### [CTI](https://github.com/anpa1200/CTI)
+Open-source cyber threat intelligence reports with evidence-labeled assessments, SOC-oriented guidance, and defensive research.
 
-### Malware Analysis Tooling
-- **[Static-malware-Analysis-Orchestrator](https://github.com/anpa1200/Static-malware-Analysis-Orchestrator)**  
-  One-command static malware analysis pipeline: triage, strings, PE imports, unpacking, and LLM-ready reporting.
+### [Static-malware-Analysis-Orchestrator](https://github.com/anpa1200/Static-malware-Analysis-Orchestrator)
+One-command static malware analysis pipeline: triage, strings, PE imports, unpacking, and LLM-ready reporting.
 
-- **[Unpacker](https://github.com/anpa1200/Unpacker)**  
-  Modular malware packer detection and unpacking workflow for PE and ELF samples.
+### [Unpacker](https://github.com/anpa1200/Unpacker)
+Modular malware packer detection and unpacking workflow for PE and ELF samples.
 
-- **[PE-Import-Analyzer](https://github.com/anpa1200/PE-Import-Analyzer)**  
-  PE import table analysis for malware triage and reverse-engineering support.
+### [PE-Import-Analyzer](https://github.com/anpa1200/PE-Import-Analyzer)
+PE import table analysis for malware triage and reverse-engineering support.
 
-- **[String-Analyzer](https://github.com/anpa1200/String-Analyzer)**  
-  Extracts and analyzes strings from binaries to surface indicators, suspicious content, and analyst-relevant context.
-
-- **[Basic-File-Information-Gathering-Script](https://github.com/anpa1200/Basic-File-Information-Gathering-Script)**  
-  File metadata and triage utility for extracting important characteristics from arbitrary files.
+### [String-Analyzer](https://github.com/anpa1200/String-Analyzer)
+String extraction and analysis for binaries to surface indicators, suspicious content, and analyst-relevant context.
 
 ---
 
-## What You’ll Find Here
+## Repository Portfolio
 
-This GitHub is organized around practical security engineering and research.
+## AI-Powered Security
 
-### Malware Analysis
-Tools and workflows for:
-- Static malware triage
-- PE analysis
-- String extraction
-- Packer detection and unpacking
-- Analyst-ready reporting
+### [AuditAI](https://github.com/anpa1200/AuditAI)
+AI-powered host vulnerability assessment and security auditing platform designed to support practical security review workflows.
 
-### Threat Intelligence
-Research-oriented repositories focused on:
-- Evidence-labeled CTI reporting
-- Threat actor analysis
-- SOC-ready defensive guidance
-- ATT&CK-aligned research outputs
+---
 
-### AI + Cybersecurity
-Projects exploring:
-- AI-assisted vulnerability assessment
-- AI-driven security workflow automation
-- LLM-ready analysis pipelines
-- Practical offensive-security augmentation
+## Cyber Threat Intelligence
 
-### Offensive Security Research
-Hands-on experimentation around:
-- Security testing workflows
-- Lab-based attack simulation
-- Research tooling
-- Adversary emulation concepts
+### [CTI](https://github.com/anpa1200/CTI)
+Open-source CTI reports with evidence-labeled assessments, defensive guidance, and SOC-oriented research outputs.
+
+---
+
+## Malware Analysis Tooling
+
+### [Static-malware-Analysis-Orchestrator](https://github.com/anpa1200/Static-malware-Analysis-Orchestrator)
+One-command pipeline for static malware analysis: triage, strings, PE import analysis, unpacking, and LLM-ready reporting.
+
+### [Unpacker](https://github.com/anpa1200/Unpacker)
+Malware packer detection and unpacking framework supporting workflows such as detect → unpack → validate.
+
+### [Basic-File-Information-Gathering-Script](https://github.com/anpa1200/Basic-File-Information-Gathering-Script)
+File metadata and characteristic extraction tool for fast triage of suspicious or unknown files.
+
+### [String-Analyzer](https://github.com/anpa1200/String-Analyzer)
+Printable-string extraction and analysis utility for malware analysts, reverse engineers, and forensic investigators.
+
+### [PE-Import-Analyzer](https://github.com/anpa1200/PE-Import-Analyzer)
+Command-line utility for PE import table analysis with analyst-friendly explanations and flexible output.
+
+### [Malware_analysis](https://github.com/anpa1200/Malware_analysis)
+General malware analysis repository containing additional tooling and related experimentation.
+
+---
+
+## Security Testing and Offensive Research
+
+### [Passwords](https://github.com/anpa1200/Passwords)
+Security testing toolkit for generating personalized password wordlists, phone-based combinations, and encoded credential pairs for authorized assessments.
+
+### [RTSP-brute-force-tool](https://github.com/anpa1200/RTSP-brute-force-tool)
+Security testing utility for authorized RTSP authentication assessment and credential brute-force simulation.
+
+---
+
+## System, Networking, and Education Projects
+
+### [SystemCheck](https://github.com/anpa1200/SystemCheck)
+System configuration inspection tool for quick visibility into Linux host health and configuration state.
+
+### [Networking](https://github.com/anpa1200/Networking)
+Networking-focused Python repository for related experiments and utilities.
+
+### [lpi](https://github.com/anpa1200/lpi)
+LPI 010-160 exam simulator and training project built with a shared question-bank approach.
 
 ---
 
 ## Writing and Research
 
-I regularly publish technical articles, walkthroughs, and research on Medium, including:
-- AI-driven offensive security
-- Malware analysis tooling
+I regularly publish technical articles, walkthroughs, and research on Medium, including work on:
+- AI-driven cybersecurity
+- Malware analysis
+- Static-analysis tooling
 - CTI research
 - Security automation
-- Practical lab-based cyber research
+- Offensive-security workflows
 
-**Read my work here:**  
+**Read my articles here:**  
 [https://medium.com/@1200km](https://medium.com/@1200km)
 
 ---
@@ -121,58 +161,40 @@ I am currently focused on:
 - Expanding malware-analysis automation workflows
 - Publishing high-quality CTI research
 - Improving analyst productivity through structured tooling and automation
-- Bridging offensive research with defensive detection value
+- Connecting offensive research with real defensive value
+
+---
+
+## Project Navigation
+
+If you are visiting this profile for the first time, start here:
+
+1. [AuditAI](https://github.com/anpa1200/AuditAI)
+2. [CTI](https://github.com/anpa1200/CTI)
+3. [Static-malware-Analysis-Orchestrator](https://github.com/anpa1200/Static-malware-Analysis-Orchestrator)
+4. [Unpacker](https://github.com/anpa1200/Unpacker)
+5. [PE-Import-Analyzer](https://github.com/anpa1200/PE-Import-Analyzer)
+6. [String-Analyzer](https://github.com/anpa1200/String-Analyzer)
+7. [Basic-File-Information-Gathering-Script](https://github.com/anpa1200/Basic-File-Information-Gathering-Script)
+8. [Passwords](https://github.com/anpa1200/Passwords)
+9. [RTSP-brute-force-tool](https://github.com/anpa1200/RTSP-brute-force-tool)
+10. [SystemCheck](https://github.com/anpa1200/SystemCheck)
+11. [Malware_analysis](https://github.com/anpa1200/Malware_analysis)
+12. [lpi](https://github.com/anpa1200/lpi)
+13. [Networking](https://github.com/anpa1200/Networking)
 
 ---
 
 ## Philosophy
 
-I believe good security tooling should be:
+I believe security tooling should be:
 - Practical
 - Transparent
-- Analyst-friendly
 - Research-driven
+- Analyst-friendly
 - Easy to integrate into real workflows
 
-My goal is to build tools and research that are not just technically interesting, but operationally useful.
-
----
-
-## Repository Standards
-
-Most repositories here aim to provide:
-- Clear purpose and use case
-- Fast setup
-- Real output examples
-- Practical security value
-- Reproducible workflows
-- Research-backed direction
-
----
-
-## Explore the Repositories
-
-If you are visiting this profile for the first time, start with:
-
-1. **[AuditAI](https://github.com/anpa1200/AuditAI)**
-2. **[CTI](https://github.com/anpa1200/CTI)**
-3. **[Static-malware-Analysis-Orchestrator](https://github.com/anpa1200/Static-malware-Analysis-Orchestrator)**
-4. **[Unpacker](https://github.com/anpa1200/Unpacker)**
-5. **[PE-Import-Analyzer](https://github.com/anpa1200/PE-Import-Analyzer)**
-6. **[String-Analyzer](https://github.com/anpa1200/String-Analyzer)**
-
----
-
-## Contact / Networking
-
-I’m always interested in:
-- Security research collaboration
-- CTI and malware-analysis discussions
-- AI in cybersecurity
-- Practical defensive engineering
-- Offensive-security research ideas
-
-You can find me via Medium and LinkedIn above.
+My goal is to build tools and research that are not only technically strong, but operationally useful.
 
 ---
 
