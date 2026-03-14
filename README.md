@@ -117,6 +117,9 @@ Security testing toolkit for generating personalized password wordlists, phone-b
 ### [RTSP-brute-force-tool](https://github.com/anpa1200/RTSP-brute-force-tool)
 Security testing utility for authorized RTSP authentication assessment and credential brute-force simulation.
 
+### [vulnerable-cloud-lab](https://github.com/anpa1200/vulnerable-cloud-lab)
+Terraform-based deployment of intentionally vulnerable GCP and AWS cloud environments for penetration testing training and security research.
+
 ---
 
 ## System, Networking, and Education Projects
@@ -178,10 +181,11 @@ If you are visiting this profile for the first time, start here:
 7. [Basic-File-Information-Gathering-Script](https://github.com/anpa1200/Basic-File-Information-Gathering-Script)
 8. [Passwords](https://github.com/anpa1200/Passwords)
 9. [RTSP-brute-force-tool](https://github.com/anpa1200/RTSP-brute-force-tool)
-10. [SystemCheck](https://github.com/anpa1200/SystemCheck)
-11. [Malware_analysis](https://github.com/anpa1200/Malware_analysis)
-12. [lpi](https://github.com/anpa1200/lpi)
-13. [Networking](https://github.com/anpa1200/Networking)
+10. [vulnerable-cloud-lab](https://github.com/anpa1200/vulnerable-cloud-lab)
+11. [SystemCheck](https://github.com/anpa1200/SystemCheck)
+12. [Malware_analysis](https://github.com/anpa1200/Malware_analysis)
+13. [lpi](https://github.com/anpa1200/lpi)
+14. [Networking](https://github.com/anpa1200/Networking)
 
 ---
 
