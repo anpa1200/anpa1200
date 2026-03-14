@@ -51,6 +51,11 @@ I also publish technical cybersecurity articles and research on Medium:
 
 ## Featured Projects
 
+### [AIDebug](https://github.com/anpa1200/AIDebug)
+AI-assisted malware reverse engineering debugger. Combines Capstone disassembly, FLIRT signature matching, automatic malware pattern detection (XOR loops, stack strings, API hashing, RDTSC timing, direct syscalls), per-function CFG visualization, and Claude AI analysis — all in a live terminal UI. Optional Frida dynamic mode adds runtime register snapshots, memory diffs, automatic unpacking detection, and network traffic capture. Generates HTML reports with inline CFG SVGs, YARA rules, and JSON export for SIEM/SOAR. Supports remote frida-server for INetSim-isolated sandbox workflows.
+
+> 📖 [Full engineering walkthrough on Medium](https://medium.com/@1200km/ai-powered-malware-debugger-that-explains-every-function-it-sees-2a28ef75df8a)
+
 ### [StratusAI](https://github.com/anpa1200/stratus-ai)
 AI-powered multi-cloud security scanner for AWS and GCP. Scans 9 AWS modules, 7 GCP modules, and 4 external modules; routes findings through Claude, GPT-4o, or Gemini for attack chain analysis and prioritized reports. Deploys to AWS ECS Fargate or GCP Cloud Run Job via a single interactive wizard.
 
@@ -80,6 +85,21 @@ String extraction and analysis for binaries to surface indicators, suspicious co
 
 ## AI-Powered Security
 
+### [AIDebug](https://github.com/anpa1200/AIDebug)
+AI-assisted malware reverse engineering debugger powered by Claude. Full pipeline: static PE/ELF parsing → recursive-descent disassembly → FLIRT library identification → malware pattern detection → CFG construction → Claude AI function explanation → optional Frida dynamic instrumentation.
+
+Key capabilities:
+- **FLIRT matching** — identifies msvcrt, zlib, OpenSSL functions; skips AI for them
+- **8 malware patterns** — XOR decryption loops, stack strings, API hash resolution, RDTSC timing checks, direct syscall stubs, NOP sleds, null-safe XOR, Base64 table references
+- **CFG visualization** — basic block decomposition; text in TUI, inline SVG in HTML reports
+- **Frida dynamic mode** — register/memory snapshots, memory diffs, unpacking detection (VirtualProtect RWX→RX), Winsock + WinInet traffic capture
+- **Remote frida-server** (`--frida-host`) — run AIDebug on host with real internet while malware runs in INetSim-isolated VM
+- **Reporting** — self-contained HTML report, YARA rules, JSON export for SIEM/SOAR
+
+Supports PE32/PE64/ELF across x86, x86-64, ARM, AArch64, RISC-V.
+
+> 📖 **Article:** [I Built an AI-Powered Malware Debugger That Explains Every Function It Sees](https://medium.com/@1200km/ai-powered-malware-debugger-that-explains-every-function-it-sees-2a28ef75df8a)
+
 ### [StratusAI](https://github.com/anpa1200/stratus-ai)
 AI-powered multi-cloud security scanner covering AWS (9 modules) and GCP (7 modules) plus external endpoint scanning. Uses Claude, GPT-4o, or Gemini to synthesize findings into attack chains and prioritized remediation. Deploys serverlessly to AWS ECS Fargate or GCP Cloud Run Job via a unified interactive wizard (`wizard.sh`).
 
@@ -100,6 +120,9 @@ Open-source CTI reports with evidence-labeled assessments, defensive guidance, a
 ---
 
 ## Malware Analysis Tooling
+
+### [AIDebug](https://github.com/anpa1200/AIDebug)
+Step-by-step malware debugger powered by Claude AI. Explains every function — name, summary, parameters, behaviors, MITRE ATT&CK technique, risk level — with optional Frida runtime hooks, memory diffs, unpacking detection, and network traffic capture. See [AI-Powered Security](#ai-powered-security) for full details.
 
 ### [Static-malware-Analysis-Orchestrator](https://github.com/anpa1200/Static-malware-Analysis-Orchestrator)
 One-command pipeline for static malware analysis: triage, strings, PE import analysis, unpacking, and LLM-ready reporting.
@@ -159,6 +182,8 @@ I regularly publish technical articles, walkthroughs, and research on Medium, in
 
 **Recent articles:**
 
+- [I Built an AI-Powered Malware Debugger That Explains Every Function It Sees](https://medium.com/@1200km/ai-powered-malware-debugger-that-explains-every-function-it-sees-2a28ef75df8a) — full walkthrough of AIDebug: FLIRT matching, malware pattern detection, CFG visualization, Frida dynamic hooks, unpacking detection, network traffic capture, INetSim sandbox integration
+
 - [StratusAI: I Built an AI-Powered Cloud Security Scanner for AWS and GCP — Here's Everything](https://medium.com/@1200km/stratusai-i-built-an-ai-powered-cloud-security-scanner-for-aws-and-gcp-heres-everything-89c6702d3b84) — full engineering walkthrough: AWS + GCP scanner modules, multi-LLM routing, two-stage AI analysis, Terraform deployment on both clouds, 125-test suite
 
 **All articles:**
@@ -188,21 +213,22 @@ I am currently focused on:
 
 If you are visiting this profile for the first time, start here:
 
-1. [StratusAI](https://github.com/anpa1200/stratus-ai) — multi-cloud AI security scanner (AWS + GCP)
-2. [AuditAI](https://github.com/anpa1200/AuditAI)
-3. [CTI](https://github.com/anpa1200/CTI)
-4. [Static-malware-Analysis-Orchestrator](https://github.com/anpa1200/Static-malware-Analysis-Orchestrator)
-5. [Unpacker](https://github.com/anpa1200/Unpacker)
-6. [PE-Import-Analyzer](https://github.com/anpa1200/PE-Import-Analyzer)
-7. [String-Analyzer](https://github.com/anpa1200/String-Analyzer)
-8. [Basic-File-Information-Gathering-Script](https://github.com/anpa1200/Basic-File-Information-Gathering-Script)
-9. [Passwords](https://github.com/anpa1200/Passwords)
-10. [RTSP-brute-force-tool](https://github.com/anpa1200/RTSP-brute-force-tool)
-11. [vulnerable-cloud-lab](https://github.com/anpa1200/vulnerable-cloud-lab)
-12. [SystemCheck](https://github.com/anpa1200/SystemCheck)
-13. [Malware_analysis](https://github.com/anpa1200/Malware_analysis)
-14. [lpi](https://github.com/anpa1200/lpi)
-15. [Networking](https://github.com/anpa1200/Networking)
+1. [AIDebug](https://github.com/anpa1200/AIDebug) — AI-assisted malware debugger (Claude + Frida + Capstone)
+2. [StratusAI](https://github.com/anpa1200/stratus-ai) — multi-cloud AI security scanner (AWS + GCP)
+3. [AuditAI](https://github.com/anpa1200/AuditAI)
+4. [CTI](https://github.com/anpa1200/CTI)
+5. [Static-malware-Analysis-Orchestrator](https://github.com/anpa1200/Static-malware-Analysis-Orchestrator)
+6. [Unpacker](https://github.com/anpa1200/Unpacker)
+7. [PE-Import-Analyzer](https://github.com/anpa1200/PE-Import-Analyzer)
+8. [String-Analyzer](https://github.com/anpa1200/String-Analyzer)
+9. [Basic-File-Information-Gathering-Script](https://github.com/anpa1200/Basic-File-Information-Gathering-Script)
+10. [Passwords](https://github.com/anpa1200/Passwords)
+11. [RTSP-brute-force-tool](https://github.com/anpa1200/RTSP-brute-force-tool)
+12. [vulnerable-cloud-lab](https://github.com/anpa1200/vulnerable-cloud-lab)
+13. [SystemCheck](https://github.com/anpa1200/SystemCheck)
+14. [Malware_analysis](https://github.com/anpa1200/Malware_analysis)
+15. [lpi](https://github.com/anpa1200/lpi)
+16. [Networking](https://github.com/anpa1200/Networking)
 
 ---
 
