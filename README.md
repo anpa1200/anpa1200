@@ -51,6 +51,11 @@ I also publish technical cybersecurity articles and research on Medium:
 
 ## Featured Projects
 
+### [StratusAI](https://github.com/anpa1200/stratus-ai)
+AI-powered multi-cloud security scanner for AWS and GCP. Scans 9 AWS modules, 7 GCP modules, and 4 external modules; routes findings through Claude, GPT-4o, or Gemini for attack chain analysis and prioritized reports. Deploys to AWS ECS Fargate or GCP Cloud Run Job via a single interactive wizard.
+
+> 📖 [Full engineering walkthrough on Medium](https://medium.com/@1200km/stratusai-i-built-an-ai-powered-cloud-security-scanner-for-aws-and-gcp-heres-everything-89c6702d3b84)
+
 ### [AuditAI](https://github.com/anpa1200/AuditAI)
 AI-powered host vulnerability assessment and security auditing in a Dockerized workflow.
 
@@ -74,6 +79,13 @@ String extraction and analysis for binaries to surface indicators, suspicious co
 ## Repository Portfolio
 
 ## AI-Powered Security
+
+### [StratusAI](https://github.com/anpa1200/stratus-ai)
+AI-powered multi-cloud security scanner covering AWS (9 modules) and GCP (7 modules) plus external endpoint scanning. Uses Claude, GPT-4o, or Gemini to synthesize findings into attack chains and prioritized remediation. Deploys serverlessly to AWS ECS Fargate or GCP Cloud Run Job via a unified interactive wizard (`wizard.sh`).
+
+Runs a full assessment in 2–4 minutes. Costs ~$0.01–$0.15 per scan depending on model. 125-test suite, zero live cloud calls in CI.
+
+> 📖 **Article:** [StratusAI: I Built an AI-Powered Cloud Security Scanner for AWS and GCP — Here's Everything](https://medium.com/@1200km/stratusai-i-built-an-ai-powered-cloud-security-scanner-for-aws-and-gcp-heres-everything-89c6702d3b84)
 
 ### [AuditAI](https://github.com/anpa1200/AuditAI)
 AI-powered host vulnerability assessment and security auditing platform designed to support practical security review workflows.
@@ -145,7 +157,11 @@ I regularly publish technical articles, walkthroughs, and research on Medium, in
 - Security automation
 - Offensive-security workflows
 
-**Read my articles here:**  
+**Recent articles:**
+
+- [StratusAI: I Built an AI-Powered Cloud Security Scanner for AWS and GCP — Here's Everything](https://medium.com/@1200km/stratusai-i-built-an-ai-powered-cloud-security-scanner-for-aws-and-gcp-heres-everything-89c6702d3b84) — full engineering walkthrough: AWS + GCP scanner modules, multi-LLM routing, two-stage AI analysis, Terraform deployment on both clouds, 125-test suite
+
+**All articles:**
 [https://medium.com/@1200km](https://medium.com/@1200km)
 
 ---
@@ -172,20 +188,21 @@ I am currently focused on:
 
 If you are visiting this profile for the first time, start here:
 
-1. [AuditAI](https://github.com/anpa1200/AuditAI)
-2. [CTI](https://github.com/anpa1200/CTI)
-3. [Static-malware-Analysis-Orchestrator](https://github.com/anpa1200/Static-malware-Analysis-Orchestrator)
-4. [Unpacker](https://github.com/anpa1200/Unpacker)
-5. [PE-Import-Analyzer](https://github.com/anpa1200/PE-Import-Analyzer)
-6. [String-Analyzer](https://github.com/anpa1200/String-Analyzer)
-7. [Basic-File-Information-Gathering-Script](https://github.com/anpa1200/Basic-File-Information-Gathering-Script)
-8. [Passwords](https://github.com/anpa1200/Passwords)
-9. [RTSP-brute-force-tool](https://github.com/anpa1200/RTSP-brute-force-tool)
-10. [vulnerable-cloud-lab](https://github.com/anpa1200/vulnerable-cloud-lab)
-11. [SystemCheck](https://github.com/anpa1200/SystemCheck)
-12. [Malware_analysis](https://github.com/anpa1200/Malware_analysis)
-13. [lpi](https://github.com/anpa1200/lpi)
-14. [Networking](https://github.com/anpa1200/Networking)
+1. [StratusAI](https://github.com/anpa1200/stratus-ai) — multi-cloud AI security scanner (AWS + GCP)
+2. [AuditAI](https://github.com/anpa1200/AuditAI)
+3. [CTI](https://github.com/anpa1200/CTI)
+4. [Static-malware-Analysis-Orchestrator](https://github.com/anpa1200/Static-malware-Analysis-Orchestrator)
+5. [Unpacker](https://github.com/anpa1200/Unpacker)
+6. [PE-Import-Analyzer](https://github.com/anpa1200/PE-Import-Analyzer)
+7. [String-Analyzer](https://github.com/anpa1200/String-Analyzer)
+8. [Basic-File-Information-Gathering-Script](https://github.com/anpa1200/Basic-File-Information-Gathering-Script)
+9. [Passwords](https://github.com/anpa1200/Passwords)
+10. [RTSP-brute-force-tool](https://github.com/anpa1200/RTSP-brute-force-tool)
+11. [vulnerable-cloud-lab](https://github.com/anpa1200/vulnerable-cloud-lab)
+12. [SystemCheck](https://github.com/anpa1200/SystemCheck)
+13. [Malware_analysis](https://github.com/anpa1200/Malware_analysis)
+14. [lpi](https://github.com/anpa1200/lpi)
+15. [Networking](https://github.com/anpa1200/Networking)
 
 ---
 
