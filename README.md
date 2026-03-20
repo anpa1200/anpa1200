@@ -182,6 +182,8 @@ I regularly publish technical articles, walkthroughs, and research on Medium, in
 
 **Recent articles:**
 
+- [ATT&CK as a Working Tool: Theory and Hands-On Practical Usage](https://medium.com/@1200km) — practitioner's guide for CTI analysts, detection engineers, and threat hunters: framework anatomy, 14 tactics, 5 hands-on use cases (threat report mapping, gap analysis with Navigator, Sigma + ATT&CK detection engineering, threat hunting, adversary emulation), worked example, tooling reference, and quick-reference cheatsheet. 64 min read. (Mar 2026)
+
 - [I Built an AI-Powered Malware Debugger That Explains Every Function It Sees](https://medium.com/@1200km/ai-powered-malware-debugger-that-explains-every-function-it-sees-2a28ef75df8a) — full walkthrough of AIDebug: FLIRT matching, malware pattern detection, CFG visualization, Frida dynamic hooks, unpacking detection, network traffic capture, INetSim sandbox integration
 
 - [StratusAI: I Built an AI-Powered Cloud Security Scanner for AWS and GCP — Here's Everything](https://medium.com/@1200km/stratusai-i-built-an-ai-powered-cloud-security-scanner-for-aws-and-gcp-heres-everything-89c6702d3b84) — full engineering walkthrough: AWS + GCP scanner modules, multi-LLM routing, two-stage AI analysis, Terraform deployment on both clouds, 125-test suite
