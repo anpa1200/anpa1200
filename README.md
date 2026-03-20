@@ -182,6 +182,8 @@ I regularly publish technical articles, walkthroughs, and research on Medium, in
 
 **Recent articles:**
 
+- [Attribution Methodology: How to Build, Defend, and Challenge a Threat Actor Attribution](https://medium.com/@1200km) — practitioner's guide for CTI analysts: 5-level attribution spectrum, 4 evidence types ranked by strength (IOC overlap → TTP consistency → operator mistakes), false flag detection, APT29/Cozy Bear/SVR worked exercise, confidence model, common mistakes, interview-ready frameworks. (Mar 2026)
+
 - [ATT&CK as a Working Tool: Theory and Hands-On Practical Usage](https://medium.com/@1200km) — practitioner's guide for CTI analysts, detection engineers, and threat hunters: framework anatomy, 14 tactics, 5 hands-on use cases (threat report mapping, gap analysis with Navigator, Sigma + ATT&CK detection engineering, threat hunting, adversary emulation), worked example, tooling reference, and quick-reference cheatsheet. 64 min read. (Mar 2026)
 
 - [I Built an AI-Powered Malware Debugger That Explains Every Function It Sees](https://medium.com/@1200km/ai-powered-malware-debugger-that-explains-every-function-it-sees-2a28ef75df8a) — full walkthrough of AIDebug: FLIRT matching, malware pattern detection, CFG visualization, Frida dynamic hooks, unpacking detection, network traffic capture, INetSim sandbox integration
