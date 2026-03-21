@@ -182,6 +182,8 @@ I regularly publish technical articles, walkthroughs, and research on Medium, in
 
 **Recent articles:**
 
+- [Infrastructure Pivoting: How CTI Analysts Expand From a Single IOC to a Full Attacker Network](https://medium.com/@1200km) — field manual for tracing attacker infrastructure: 7 pivot types (passive DNS, reverse IP, ASN/hosting reuse, TLS certificates, subdomain enumeration, Shodan/Censys/FOFA, WHOIS), C2 network tracing worked example, common mistakes, interview-ready answers. Includes `autoWF.py` — automated pivot tool (VirusTotal + SecurityTrails + crt.sh). 32 min read. (Mar 2026)
+
 - [Attribution Methodology: How to Build, Defend, and Challenge a Threat Actor Attribution](https://medium.com/@1200km) — practitioner's guide for CTI analysts: 5-level attribution spectrum, 4 evidence types ranked by strength (IOC overlap → TTP consistency → operator mistakes), false flag detection, APT29/Cozy Bear/SVR worked exercise, confidence model, common mistakes, interview-ready frameworks. (Mar 2026)
 
 - [ATT&CK as a Working Tool: Theory and Hands-On Practical Usage](https://medium.com/@1200km) — practitioner's guide for CTI analysts, detection engineers, and threat hunters: framework anatomy, 14 tactics, 5 hands-on use cases (threat report mapping, gap analysis with Navigator, Sigma + ATT&CK detection engineering, threat hunting, adversary emulation), worked example, tooling reference, and quick-reference cheatsheet. 64 min read. (Mar 2026)
