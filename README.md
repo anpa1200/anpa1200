@@ -20,6 +20,7 @@ I focus on:
 - [Repository Portfolio](#repository-portfolio)
   - [AI-Powered Security](#ai-powered-security)
   - [Cyber Threat Intelligence](#cyber-threat-intelligence)
+  - [Android APK Analysis](#android-malware-analysis-tooling)
   - [Malware Analysis Tooling](#malware-analysis-tooling)
   - [Security Testing and Offensive Research](#security-testing-and-offensive-research)
   - [System, Networking, and Education Projects](#system-networking-and-education-projects)
@@ -50,6 +51,11 @@ I also publish technical cybersecurity articles and research on Medium:
 ---
 
 ## Featured Projects
+
+### [Android-Malware-Analysis](https://github.com/anpa1200/Android-Malware-Analysis)
+AI-powered static analysis framework for Android APK files. Combines YARA rule matching, semantic component name analysis, weighted threat scoring, VirusTotal cross-validation, and multi-provider LLM classification (Claude, OpenAI, Gemini, or local Ollama) — producing MITRE ATT&CK-mapped reports and Frida instrumentation scripts entirely in the terminal. No sandbox, no uploads required.
+
+> 📖 [Full guide on Medium](https://medium.com/@1200km/android-apk-analysis-tool-ai-powered-static-malware-analysis-in-your-terminal-4beb239dad12)
 
 ### [AIDebug](https://github.com/anpa1200/AIDebug)
 AI-assisted malware reverse engineering debugger. Combines Capstone disassembly, FLIRT signature matching, automatic malware pattern detection (XOR loops, stack strings, API hashing, RDTSC timing, direct syscalls), per-function CFG visualization, and Claude AI analysis — all in a live terminal UI. Optional Frida dynamic mode adds runtime register snapshots, memory diffs, automatic unpacking detection, and network traffic capture. Generates HTML reports with inline CFG SVGs, YARA rules, and JSON export for SIEM/SOAR. Supports remote frida-server for INetSim-isolated sandbox workflows.
@@ -131,6 +137,11 @@ Open-source CTI reports with evidence-labeled assessments, defensive guidance, a
 
 ## Malware Analysis Tooling
 
+### [Android-Malware-Analysis](https://github.com/anpa1200/Android-Malware-Analysis)
+Terminal-native APK analysis pipeline: static analysis via androguard, YARA scanning (20 rules covering Anubis, Cerberus, Joker, SpyNote, Metasploit RAT, Stalkerware, and more), semantic component decoding, entropy-based obfuscation detection, VirusTotal lookup, and AI-generated reports with MITRE ATT&CK mappings and Frida hooks. Supports Claude, OpenAI GPT-4o, Google Gemini, and local Ollama.
+
+> 📖 **Article:** [Android APK Analysis Tool: AI-Powered Static Malware Analysis in Your Terminal](https://medium.com/@1200km/android-apk-analysis-tool-ai-powered-static-malware-analysis-in-your-terminal-4beb239dad12)
+
 ### [AIDebug](https://github.com/anpa1200/AIDebug)
 Step-by-step malware debugger powered by Claude AI. Explains every function — name, summary, parameters, behaviors, MITRE ATT&CK technique, risk level — with optional Frida runtime hooks, memory diffs, unpacking detection, and network traffic capture. See [AI-Powered Security](#ai-powered-security) for full details.
 
@@ -192,6 +203,8 @@ I regularly publish technical articles, walkthroughs, and research on Medium, in
 
 **Recent articles:**
 
+- [Android APK Analysis Tool: AI-Powered Static Malware Analysis in Your Terminal](https://medium.com/@1200km/android-apk-analysis-tool-ai-powered-static-malware-analysis-in-your-terminal-4beb239dad12) — practical guide to the Android-Malware-Analysis tool: all 4 analysis phases explained, multi-provider AI setup (Claude/OpenAI/Gemini/Ollama), VirusTotal integration, real SpyNote/SpyMax Frida hook walkthrough, risk scoring formula, batch analysis, and architecture overview. (Mar 2026)
+
 - [CVSS v4.0: The Practical Field Guide for Vulnerability Management](https://medium.com/bugbountywriteup/cvss-v4-0-the-practical-field-guide-for-vulnerability-management-5b5a59728456) — complete practitioner guide: CVSS-B → CVSS-BT → CVSS-BTE lifecycle, exploit maturity decision logic (KEV + EPSS), environmental metric profiles, industry-specific scoring (healthcare, OT/ICS, PCI), Log4Shell/CitrixBleed/MOVEit/Erlang OTP worked examples, CVSS vs SSVC comparison, automation tool. (Mar 2026)
 
 - [Infrastructure Pivoting: How CTI Analysts Expand From a Single IOC to a Full Attacker Network](https://medium.com/@1200km) — field manual for tracing attacker infrastructure: 7 pivot types (passive DNS, reverse IP, ASN/hosting reuse, TLS certificates, subdomain enumeration, Shodan/Censys/FOFA, WHOIS), C2 network tracing worked example, common mistakes, interview-ready answers. Includes `autoWF.py` — automated pivot tool (VirusTotal + SecurityTrails + crt.sh). 32 min read. (Mar 2026)
@@ -231,10 +244,11 @@ I am currently focused on:
 
 If you are visiting this profile for the first time, start here:
 
-1. [AIDebug](https://github.com/anpa1200/AIDebug) — AI-assisted malware debugger (Claude + Frida + Capstone)
-2. [StratusAI](https://github.com/anpa1200/stratus-ai) — multi-cloud AI security scanner (AWS + GCP)
-3. [AuditAI](https://github.com/anpa1200/AuditAI)
-4. [cvss_4.0](https://github.com/anpa1200/cvss_4.0) — CVSS v4.0 BTE enrichment tool (KEV + EPSS + asset profiles)
+1. [Android-Malware-Analysis](https://github.com/anpa1200/Android-Malware-Analysis) — AI-powered Android APK static analysis (YARA + semantic + VT + Claude/OpenAI/Gemini/Ollama)
+2. [AIDebug](https://github.com/anpa1200/AIDebug) — AI-assisted malware debugger (Claude + Frida + Capstone)
+3. [StratusAI](https://github.com/anpa1200/stratus-ai) — multi-cloud AI security scanner (AWS + GCP)
+4. [AuditAI](https://github.com/anpa1200/AuditAI)
+5. [cvss_4.0](https://github.com/anpa1200/cvss_4.0) — CVSS v4.0 BTE enrichment tool (KEV + EPSS + asset profiles)
 5. [CTI](https://github.com/anpa1200/CTI)
 6. [Static-malware-Analysis-Orchestrator](https://github.com/anpa1200/Static-malware-Analysis-Orchestrator)
 7. [Unpacker](https://github.com/anpa1200/Unpacker)
