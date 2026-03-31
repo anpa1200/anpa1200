@@ -20,7 +20,6 @@ I focus on:
 - [Repository Portfolio](#repository-portfolio)
   - [AI-Powered Security](#ai-powered-security)
   - [Cyber Threat Intelligence](#cyber-threat-intelligence)
-  - [Android APK Analysis](#android-malware-analysis-tooling)
   - [Malware Analysis Tooling](#malware-analysis-tooling)
   - [Security Testing and Offensive Research](#security-testing-and-offensive-research)
   - [System, Networking, and Education Projects](#system-networking-and-education-projects)
