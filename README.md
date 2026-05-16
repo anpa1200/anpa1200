@@ -13,11 +13,27 @@ I focus on:
 
 ---
 
+## Flagship Projects
+
+These are the main portfolio projects I want visitors to see first: full documentation sites, structured research programs, and practical security workflows built for analysts, defenders, and security engineers.
+
+### [HexStrike AI Guide](https://anpa1200.github.io/Hexstrike-AI-guide/) | [Repository](https://github.com/anpa1200/Hexstrike-AI-guide)
+AI-assisted security-tool orchestration guide for authorized lab assessment, evidence collection, troubleshooting, and reporting. Covers installation, LLM client integration, reconnaissance, web and cloud workflows, password-security auditing, Active Directory lab assessment, and controlled end-to-end walkthroughs.
+
+### [Israel Government Threat Actors CTI](https://anpa1200.github.io/israel-government-threat-actors-cti/) | [Repository](https://github.com/anpa1200/israel-government-threat-actors-cti)
+Defensive CTI knowledge base focused on public-source reporting about threat actors, personas, malware families, TTPs, and detection opportunities relevant to Israeli government, public-sector, municipal, critical infrastructure, and supplier exposure.
+
+### [Customer-Driven AI CTI Project](https://anpa1200.github.io/customer-driven-ai-cti-project/) | [Repository](https://github.com/anpa1200/customer-driven-ai-cti-project)
+Gate-controlled CTI-to-detection methodology for building customer-relevant intelligence programs. Provides governance, reusable registers, phase-by-phase workflows, detection-engineering examples, quality gates, and article-backed practitioner templates.
+
+---
+
 ## Table of Contents
 
+- [Flagship Projects](#flagship-projects)
 - [About Me](#about-me)
 - [Featured Projects](#featured-projects)
-- [Docusaurus Documentation Sites](#docusaurus-documentation-sites)
+- [Additional Documentation Site](#additional-documentation-site)
 - [Repository Portfolio](#repository-portfolio)
   - [AI-Powered Security](#ai-powered-security)
   - [Cyber Threat Intelligence](#cyber-threat-intelligence)
@@ -92,19 +108,10 @@ String extraction and analysis for binaries to surface indicators, suspicious co
 
 ---
 
-## Docusaurus Documentation Sites
+## Additional Documentation Site
 
 ### [CVSS v4.0 Field Guide](https://anpa1200.github.io/cvss/) | [Repository](https://github.com/anpa1200/cvss)
 Practitioner-focused CVSS v4.0 documentation for vulnerability management teams. Covers Base, Threat, and Environmental scoring, CVSS-BTE workflows, industry-specific examples, CVSS vs SSVC, scanner-output triage, and compliance-oriented evidence.
-
-### [HexStrike AI Guide](https://anpa1200.github.io/Hexstrike-AI-guide/) | [Repository](https://github.com/anpa1200/Hexstrike-AI-guide)
-Documentation site for AI-assisted security-tool orchestration in authorized lab environments. Includes installation, LLM client integration, reconnaissance, web and cloud testing workflows, password-security auditing, Active Directory lab assessment, and reporting-focused walkthroughs.
-
-### [Israel Government Threat Actors CTI](https://anpa1200.github.io/israel-government-threat-actors-cti/) | [Repository](https://github.com/anpa1200/israel-government-threat-actors-cti)
-Defensive CTI knowledge base focused on public-source reporting about threat actors, personas, malware families, TTPs, and detection opportunities relevant to Israeli government, public-sector, municipal, critical infrastructure, and supplier exposure.
-
-### [Customer-Driven AI CTI Project](https://anpa1200.github.io/customer-driven-ai-cti-project/) | [Repository](https://github.com/anpa1200/customer-driven-ai-cti-project)
-Gate-controlled CTI-to-detection methodology for building customer-relevant intelligence programs. Provides project governance, workflow references, reusable registers, detection-engineering examples, quality gates, and article-backed practitioner templates.
 
 ---
 
@@ -262,14 +269,14 @@ I am currently focused on:
 
 If you are visiting this profile for the first time, start here:
 
-1. [Android-Malware-Analysis](https://github.com/anpa1200/Android-Malware-Analysis) — AI-powered Android APK static analysis (YARA + semantic + VT + Claude/OpenAI/Gemini/Ollama)
-2. [AIDebug](https://github.com/anpa1200/AIDebug) — AI-assisted malware debugger (Claude + Frida + Capstone)
-3. [StratusAI](https://github.com/anpa1200/stratus-ai) — multi-cloud AI security scanner (AWS + GCP)
-4. [AuditAI](https://github.com/anpa1200/AuditAI)
-5. [CVSS v4.0 Field Guide](https://anpa1200.github.io/cvss/) — Docusaurus guide for practical CVSS v4.0 vulnerability management
-6. [HexStrike AI Guide](https://anpa1200.github.io/Hexstrike-AI-guide/) — Docusaurus guide for AI-assisted security-tool orchestration labs
-7. [Israel Government Threat Actors CTI](https://anpa1200.github.io/israel-government-threat-actors-cti/) — Docusaurus CTI knowledge base for Israel-relevant defensive research
-8. [Customer-Driven AI CTI Project](https://anpa1200.github.io/customer-driven-ai-cti-project/) — Docusaurus methodology site for CTI-to-detection programs
+1. [HexStrike AI Guide](https://anpa1200.github.io/Hexstrike-AI-guide/) — flagship Docusaurus guide for AI-assisted security-tool orchestration labs
+2. [Israel Government Threat Actors CTI](https://anpa1200.github.io/israel-government-threat-actors-cti/) — flagship defensive CTI knowledge base for Israel-relevant public-sector exposure
+3. [Customer-Driven AI CTI Project](https://anpa1200.github.io/customer-driven-ai-cti-project/) — flagship CTI-to-detection methodology and practitioner template site
+4. [Android-Malware-Analysis](https://github.com/anpa1200/Android-Malware-Analysis) — AI-powered Android APK static analysis (YARA + semantic + VT + Claude/OpenAI/Gemini/Ollama)
+5. [AIDebug](https://github.com/anpa1200/AIDebug) — AI-assisted malware debugger (Claude + Frida + Capstone)
+6. [StratusAI](https://github.com/anpa1200/stratus-ai) — multi-cloud AI security scanner (AWS + GCP)
+7. [AuditAI](https://github.com/anpa1200/AuditAI)
+8. [CVSS v4.0 Field Guide](https://anpa1200.github.io/cvss/) — Docusaurus guide for practical CVSS v4.0 vulnerability management
 9. [cvss_4.0](https://github.com/anpa1200/cvss_4.0) — CVSS v4.0 BTE enrichment tool (KEV + EPSS + asset profiles)
 10. [CTI](https://github.com/anpa1200/CTI)
 11. [Static-malware-Analysis-Orchestrator](https://github.com/anpa1200/Static-malware-Analysis-Orchestrator)
