@@ -17,6 +17,7 @@ I focus on:
 
 - [About Me](#about-me)
 - [Featured Projects](#featured-projects)
+- [Docusaurus Documentation Sites](#docusaurus-documentation-sites)
 - [Repository Portfolio](#repository-portfolio)
   - [AI-Powered Security](#ai-powered-security)
   - [Cyber Threat Intelligence](#cyber-threat-intelligence)
@@ -88,6 +89,22 @@ PE import table analysis for malware triage and reverse-engineering support.
 
 ### [String-Analyzer](https://github.com/anpa1200/String-Analyzer)
 String extraction and analysis for binaries to surface indicators, suspicious content, and analyst-relevant context.
+
+---
+
+## Docusaurus Documentation Sites
+
+### [CVSS v4.0 Field Guide](https://anpa1200.github.io/cvss/) | [Repository](https://github.com/anpa1200/cvss)
+Practitioner-focused CVSS v4.0 documentation for vulnerability management teams. Covers Base, Threat, and Environmental scoring, CVSS-BTE workflows, industry-specific examples, CVSS vs SSVC, scanner-output triage, and compliance-oriented evidence.
+
+### [HexStrike AI Guide](https://anpa1200.github.io/Hexstrike-AI-guide/) | [Repository](https://github.com/anpa1200/Hexstrike-AI-guide)
+Documentation site for AI-assisted security-tool orchestration in authorized lab environments. Includes installation, LLM client integration, reconnaissance, web and cloud testing workflows, password-security auditing, Active Directory lab assessment, and reporting-focused walkthroughs.
+
+### [Israel Government Threat Actors CTI](https://anpa1200.github.io/israel-government-threat-actors-cti/) | [Repository](https://github.com/anpa1200/israel-government-threat-actors-cti)
+Defensive CTI knowledge base focused on public-source reporting about threat actors, personas, malware families, TTPs, and detection opportunities relevant to Israeli government, public-sector, municipal, critical infrastructure, and supplier exposure.
+
+### [Customer-Driven AI CTI Project](https://anpa1200.github.io/customer-driven-ai-cti-project/) | [Repository](https://github.com/anpa1200/customer-driven-ai-cti-project)
+Gate-controlled CTI-to-detection methodology for building customer-relevant intelligence programs. Provides project governance, workflow references, reusable registers, detection-engineering examples, quality gates, and article-backed practitioner templates.
 
 ---
 
@@ -249,20 +266,24 @@ If you are visiting this profile for the first time, start here:
 2. [AIDebug](https://github.com/anpa1200/AIDebug) — AI-assisted malware debugger (Claude + Frida + Capstone)
 3. [StratusAI](https://github.com/anpa1200/stratus-ai) — multi-cloud AI security scanner (AWS + GCP)
 4. [AuditAI](https://github.com/anpa1200/AuditAI)
-5. [cvss_4.0](https://github.com/anpa1200/cvss_4.0) — CVSS v4.0 BTE enrichment tool (KEV + EPSS + asset profiles)
-5. [CTI](https://github.com/anpa1200/CTI)
-6. [Static-malware-Analysis-Orchestrator](https://github.com/anpa1200/Static-malware-Analysis-Orchestrator)
-7. [Unpacker](https://github.com/anpa1200/Unpacker)
-8. [PE-Import-Analyzer](https://github.com/anpa1200/PE-Import-Analyzer)
-9. [String-Analyzer](https://github.com/anpa1200/String-Analyzer)
-10. [Basic-File-Information-Gathering-Script](https://github.com/anpa1200/Basic-File-Information-Gathering-Script)
-11. [Passwords](https://github.com/anpa1200/Passwords)
-12. [RTSP-brute-force-tool](https://github.com/anpa1200/RTSP-brute-force-tool)
-13. [vulnerable-cloud-lab](https://github.com/anpa1200/vulnerable-cloud-lab)
-14. [SystemCheck](https://github.com/anpa1200/SystemCheck)
-15. [Malware_analysis](https://github.com/anpa1200/Malware_analysis)
-16. [lpi](https://github.com/anpa1200/lpi)
-17. [Networking](https://github.com/anpa1200/Networking)
+5. [CVSS v4.0 Field Guide](https://anpa1200.github.io/cvss/) — Docusaurus guide for practical CVSS v4.0 vulnerability management
+6. [HexStrike AI Guide](https://anpa1200.github.io/Hexstrike-AI-guide/) — Docusaurus guide for AI-assisted security-tool orchestration labs
+7. [Israel Government Threat Actors CTI](https://anpa1200.github.io/israel-government-threat-actors-cti/) — Docusaurus CTI knowledge base for Israel-relevant defensive research
+8. [Customer-Driven AI CTI Project](https://anpa1200.github.io/customer-driven-ai-cti-project/) — Docusaurus methodology site for CTI-to-detection programs
+9. [cvss_4.0](https://github.com/anpa1200/cvss_4.0) — CVSS v4.0 BTE enrichment tool (KEV + EPSS + asset profiles)
+10. [CTI](https://github.com/anpa1200/CTI)
+11. [Static-malware-Analysis-Orchestrator](https://github.com/anpa1200/Static-malware-Analysis-Orchestrator)
+12. [Unpacker](https://github.com/anpa1200/Unpacker)
+13. [PE-Import-Analyzer](https://github.com/anpa1200/PE-Import-Analyzer)
+14. [String-Analyzer](https://github.com/anpa1200/String-Analyzer)
+15. [Basic-File-Information-Gathering-Script](https://github.com/anpa1200/Basic-File-Information-Gathering-Script)
+16. [Passwords](https://github.com/anpa1200/Passwords)
+17. [RTSP-brute-force-tool](https://github.com/anpa1200/RTSP-brute-force-tool)
+18. [vulnerable-cloud-lab](https://github.com/anpa1200/vulnerable-cloud-lab)
+19. [SystemCheck](https://github.com/anpa1200/SystemCheck)
+20. [Malware_analysis](https://github.com/anpa1200/Malware_analysis)
+21. [lpi](https://github.com/anpa1200/lpi)
+22. [Networking](https://github.com/anpa1200/Networking)
 
 ---
 
