@@ -40,16 +40,6 @@ Related supporting CTI assets: [CTI reports](https://github.com/anpa1200/CTI), [
 - SOC enablement / detection-content role
 - OpenCTI / CTI platform-oriented security role
 
-## CTI Portfolio Review Path
-
-| Time | Review path |
-|---|---|
-| 5 minutes | [Portfolio hub](https://anpa1200.github.io/) -> [CTI Analyst Field Manual](https://anpa1200.github.io/cti-analyst-field-manual/) -> [CTI Portfolio One-Pager](CTI_PORTFOLIO_ONEPAGER.md). |
-| 15 minutes | Add [Israel Government Threat Actors CTI](https://anpa1200.github.io/israel-government-threat-actors-cti/), [Customer-Driven AI CTI Project](https://anpa1200.github.io/customer-driven-ai-cti-project/), and [OpenCTI Intelligent Shield](https://github.com/anpa1200/opencti-intelligent-shield). |
-| Deep technical review | Inspect [CTI reports](https://github.com/anpa1200/CTI), [cti-detection-pack](https://github.com/anpa1200/cti-detection-pack), [AIDebug](https://github.com/anpa1200/AIDebug), and [Android-Malware-Analysis](https://github.com/anpa1200/Android-Malware-Analysis). |
-
-Full markdown path: [hiring-manager-review-path.md](hiring-manager-review-path.md).
-
 ## Core Skills Demonstrated
 
 | Skill area | Evidence in portfolio |
