@@ -2,6 +2,8 @@
 
 [Main portfolio hub: anpa1200.github.io](https://anpa1200.github.io/) — start here for my cybersecurity research, Docusaurus sites, tools, labs, and Medium articles.
 
+[Support this work via PayPal](https://www.paypal.com/donate/?business=W3XDKS7J9XTCG&no_recurring=0&item_name=Buy+me+a+coffee+%28PayPal%29+%E2%80%94+Keep+the+lab+running&currency_code=USD)
+
 Cybersecurity researcher and security engineer with offensive-security and malware-analysis depth. I build practical work across CTI, detection engineering, malware analysis, cloud security, AI-assisted workflows, offensive labs, and vulnerability prioritization.
 
 | CTI as engineering | Operator-grade tradecraft | Offensive and malware lab depth |
