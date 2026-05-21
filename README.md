@@ -26,6 +26,9 @@ Defensive CTI knowledge base focused on public-source reporting about threat act
 ### [Customer-Driven AI CTI Project](https://anpa1200.github.io/customer-driven-ai-cti-project/) | [Repository](https://github.com/anpa1200/customer-driven-ai-cti-project)
 Gate-controlled CTI-to-detection methodology for building customer-relevant intelligence programs. Provides governance, reusable registers, phase-by-phase workflows, detection-engineering examples, quality gates, and article-backed practitioner templates.
 
+### [The Intelligent Shield: OpenCTI AI Enrichment](https://anpa1200.github.io/opencti-intelligent-shield/) | [Repository](https://github.com/anpa1200/opencti-intelligent-shield)
+OpenCTI deployment project for AI-driven cyber threat intelligence enrichment. Includes Docker Compose deployment assets, a custom Claude-based OpenCTI internal enrichment connector, sanitized environment templates, full operational guide, helper scripts for fast stack start/stop, and a Docusaurus documentation site based on the published Medium article with local screenshots and infographics.
+
 ---
 
 ## Table of Contents
