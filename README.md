@@ -107,6 +107,6 @@ Curated CTI and detection reads:
 - Medium: https://medium.com/@1200km
 - LinkedIn: https://www.linkedin.com/in/andrey-pautov/
 - Twitter/X: https://x.com/AndreyPa5
-- PayPal: [user: confirm donation URL]
+- PayPal: https://www.paypal.com/donate/?business=W3XDKS7J9XTCG&no_recurring=0&item_name=Buy+me+a+coffee+%28PayPal%29+%E2%80%94+Keep+the+lab+running&currency_code=USD
 
 I write CTI like the operator is still moving and the SOC has to act today.
