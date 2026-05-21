@@ -13,7 +13,6 @@ Cybersecurity researcher and CTI-to-detection practitioner focused on turning th
 ![Medium followers](https://img.shields.io/badge/Medium%20followers-1.3K-black)
 ![Python](https://img.shields.io/badge/Python-primary-blue)
 ![LinkedIn](https://img.shields.io/badge/LinkedIn-andrey--pautov-blue)
-![Twitter](https://img.shields.io/badge/X-@AndreyPa5-black)
 
 Medium and GitHub are my public proof-of-work. The Docusaurus sites are the structured versions of the work: field manuals, repeatable CTI-to-detection methods, sector CTI, platform notes, and practitioner guides.
 
@@ -85,7 +84,6 @@ These projects support the CTI-to-detection story. They are not the headline.
 - Medium: https://medium.com/@1200km
 - GitHub: https://github.com/anpa1200
 - LinkedIn: https://www.linkedin.com/in/andrey-pautov/
-- Twitter/X: https://x.com/AndreyPa5
 - PayPal: https://www.paypal.com/donate/?business=W3XDKS7J9XTCG&no_recurring=0&item_name=Buy+me+a+coffee+%28PayPal%29+%E2%80%94+Keep+the+lab+running&currency_code=USD
 
 I write CTI so the next defender can hunt, validate, prioritize, and hand useful work to the SOC.

@@ -82,5 +82,4 @@ Guardrails:
 - GitHub: https://github.com/anpa1200
 - Medium: https://medium.com/@1200km
 - Portfolio: https://anpa1200.github.io/
-- Twitter/X: https://x.com/AndreyPa5
 - Support: https://www.paypal.com/donate/?business=W3XDKS7J9XTCG&no_recurring=0&item_name=Buy+me+a+coffee+%28PayPal%29+%E2%80%94+Keep+the+lab+running&currency_code=USD
