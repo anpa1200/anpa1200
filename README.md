@@ -1,5 +1,7 @@
 # Andrey Pautov
 
+[Main portfolio hub: anpa1200.github.io](https://anpa1200.github.io/) — start here for my CTI reports, Docusaurus sites, tools, labs, and Medium research.
+
 Practical CTI engineer with an offensive-security and malware-analysis background. I build tooling that turns reports into hunts, IOCs into pivots, malware samples into ATT&CK-mapped detections, and CVEs into prioritized work.
 
 | CTI as engineering | Operator-grade tradecraft | Offensive and malware lab depth |
