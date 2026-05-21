@@ -1,313 +1,108 @@
 # Andrey Pautov
 
-**Cybersecurity Researcher | AI-Powered Security Tooling | Malware Analysis | CTI | Offensive Security Research**
+Practical CTI engineer with an offensive-security and malware-analysis background. I build tooling that turns reports into hunts, IOCs into pivots, malware samples into ATT&CK-mapped detections, and CVEs into prioritized work.
 
-I build practical cybersecurity tools, malware-analysis workflows, threat intelligence research, and security testing utilities designed for analysts, defenders, researchers, and security engineers.
+| CTI as engineering | Operator-grade tradecraft | Offensive and malware lab depth |
+|---|---|---|
+| Reports to detections. IOCs to pivots. CVEs to work queues. | Evidence labels, attribution discipline, ATT&CK mapping, hunting hypotheses. | Labs, malware tooling, cloud testing, AD/Kubernetes/GCP workflows. |
 
-I focus on:
-- AI-powered security automation
-- Malware triage and static analysis
-- Cyber Threat Intelligence (CTI)
-- Offensive security research
-- Detection-oriented defensive engineering
+![Medium followers](https://img.shields.io/badge/Medium%20followers-1.3K-black)
+![Python](https://img.shields.io/badge/Python-primary-blue)
+![LinkedIn](https://img.shields.io/badge/LinkedIn-andrey--pautov-blue)
+![Twitter](https://img.shields.io/badge/X-@AndreyPa5-black)
 
----
+I came to CTI through offensive security and malware analysis, which changes how I write intelligence. I care less about polished reports and more about what a defender can do next: hunt the behavior, enrich the IOC, map the technique, validate the claim, prioritize the vulnerable asset, and hand the SOC something testable.
 
-## Flagship Projects
+## Start Here
 
-These are the main portfolio projects I want visitors to see first: full documentation sites, structured research programs, and practical security workflows built for analysts, defenders, and security engineers.
+| Project | Defender value | Links |
+|---|---|---|
+| **AIDebug** | Explains malware functions and turns reverse-engineering output into ATT&CK mappings, YARA, IOC lists, and reports. | [Repo](https://github.com/anpa1200/AIDebug) · [Article](https://medium.com/@1200km/ai-powered-malware-debugger-that-explains-every-function-it-sees-2a28ef75df8a) |
+| **Android-Malware-Analysis** | Static APK triage with YARA, semantic scoring, VirusTotal context, ATT&CK output, and Frida hooks. | [Repo](https://github.com/anpa1200/Android-Malware-Analysis) · [Article](https://medium.com/@1200km/android-apk-analysis-tool-ai-powered-static-malware-analysis-in-your-terminal-4beb239dad12) |
+| **cvss_4.0** | Converts CVEs into CVSS-BTE prioritization using NVD, CISA KEV, EPSS, and asset profiles. | [Repo](https://github.com/anpa1200/cvss_4.0) · [Article](https://medium.com/bugbountywriteup/cvss-v4-0-the-practical-field-guide-for-vulnerability-management-5b5a59728456) · [Guide](https://anpa1200.github.io/cvss/) |
+| **CTI** | Evidence-labeled threat reports with defensive guidance and reusable report templates. | [Repo](https://github.com/anpa1200/CTI) · [Israel CTI site](https://anpa1200.github.io/israel-government-threat-actors-cti/) |
+| **stratus-ai** | Multi-cloud AI security scanner for AWS, GCP, and external exposure with attack-chain synthesis. | [Repo](https://github.com/anpa1200/stratus-ai) · [Article](https://medium.com/@1200km/stratusai-i-built-an-ai-powered-cloud-security-scanner-for-aws-and-gcp-heres-everything-89c6702d3b84) |
+| **autoWF** | IOC-to-infrastructure pivoting tool for CTI analysts. | [Repo](https://github.com/anpa1200/autoWF) · [Article](https://infosecwriteups.com/infrastructure-pivoting-how-cti-analysts-expand-from-a-single-ioc-to-a-full-attacker-network) |
 
-### [HexStrike AI Guide](https://anpa1200.github.io/Hexstrike-AI-guide/) | [Repository](https://github.com/anpa1200/Hexstrike-AI-guide)
-AI-assisted security-tool orchestration guide for authorized lab assessment, evidence collection, troubleshooting, and reporting. Covers installation, LLM client integration, reconnaissance, web and cloud workflows, password-security auditing, Active Directory lab assessment, and controlled end-to-end walkthroughs.
+## CTI Deliverables
 
-### [Israel Government Threat Actors CTI](https://anpa1200.github.io/israel-government-threat-actors-cti/) | [Repository](https://github.com/anpa1200/israel-government-threat-actors-cti)
-Defensive CTI knowledge base focused on public-source reporting about threat actors, personas, malware families, TTPs, and detection opportunities relevant to Israeli government, public-sector, municipal, critical infrastructure, and supplier exposure.
+### Threat Reports
 
-### [Customer-Driven AI CTI Project](https://anpa1200.github.io/customer-driven-ai-cti-project/) | [Repository](https://github.com/anpa1200/customer-driven-ai-cti-project)
-Gate-controlled CTI-to-detection methodology for building customer-relevant intelligence programs. Provides governance, reusable registers, phase-by-phase workflows, detection-engineering examples, quality gates, and article-backed practitioner templates.
+- [CTI](https://github.com/anpa1200/CTI) — citation-linked reports on Handala / Void Manticore, Sandworm / APT44, and MuddyWater / Seedworm with evidence labels: Observed, Reported, Assessed, Claimed.
+- [Israel Government Threat Actors CTI](https://anpa1200.github.io/israel-government-threat-actors-cti/) — defensive CTI knowledge base for Israeli government, public-sector, municipal, critical-infrastructure, and supplier exposure.
 
-### [The Intelligent Shield: OpenCTI AI Enrichment](https://anpa1200.github.io/opencti-intelligent-shield/) | [Repository](https://github.com/anpa1200/opencti-intelligent-shield)
-OpenCTI deployment project for AI-driven cyber threat intelligence enrichment. Includes Docker Compose deployment assets, a custom Claude-based OpenCTI internal enrichment connector, sanitized environment templates, full operational guide, helper scripts for fast stack start/stop, and a Docusaurus documentation site based on the published Medium article with local screenshots and infographics.
+### Tradecraft And Methodology
 
----
+- [CTI Analyst Field Manual](https://anpa1200.github.io/cti-analyst-field-manual/) — analytic judgment, hunting hypotheses, source handling, confidence language, and detection-ready outputs.
+- [Attribution Methodology](https://medium.com/@1200km/attribution-methodology-how-to-build-defend-and-challenge-a-threat-actor-attribution-071066437ced)
+- [Infrastructure Pivoting](https://infosecwriteups.com/infrastructure-pivoting-how-cti-analysts-expand-from-a-single-ioc-to-a-full-attacker-network)
+- [ATT&CK as a Working Tool](https://medium.com/@1200km/att-ck-as-a-working-tool-theory-and-hands-on-practical-usage-d63835c9f101)
+- [Manual CTI vs. AI-Assisted CTI](https://medium.com/@1200km/manual-cti-vs-ai-assisted-cti-a-step-by-step-clock-comparison-ee08325203fc)
+- [CTI Kill Chain](https://medium.com/@1200km/cti-kill-chain-an-analyst-guide-with-real-world-evidence-c3bef6fd2979)
 
-## Table of Contents
+### CTI Program Design
 
-- [Flagship Projects](#flagship-projects)
-- [About Me](#about-me)
-- [Featured Projects](#featured-projects)
-- [Additional Documentation Site](#additional-documentation-site)
-- [Repository Portfolio](#repository-portfolio)
-  - [AI-Powered Security](#ai-powered-security)
-  - [Cyber Threat Intelligence](#cyber-threat-intelligence)
-  - [Malware Analysis Tooling](#malware-analysis-tooling)
-  - [Security Testing and Offensive Research](#security-testing-and-offensive-research)
-  - [System, Networking, and Education Projects](#system-networking-and-education-projects)
-- [Writing and Research](#writing-and-research)
-- [Professional Links](#professional-links)
-- [Current Focus](#current-focus)
-- [Project Navigation](#project-navigation)
-- [Philosophy](#philosophy)
+- [Customer-Driven AI CTI Project](https://anpa1200.github.io/customer-driven-ai-cti-project/) — gate-controlled CTI-to-detection methodology.
+- [Customer-Driven AI CTI Project Template](https://anpa1200.github.io/customer-driven-ai-cti-project-template/) — reusable project template from intelligence requirements to hunts, detections, and delivery.
 
----
+### Detection And Hunting
 
-## About Me
+- [From Threat Intelligence to Detection](https://medium.com/@1200km)
+- [Threat Hunting with the Pyramid of Pain](https://medium.com/@1200km)
+- [Single-Event Detection Rules](https://medium.com/@1200km)
+- [Correlation-Based Detection Rules](https://medium.com/@1200km)
+- [Endpoint Threat Hunting](https://medium.com/@1200km)
+- [Protocol-Level Network Threat Hunting](https://medium.com/@1200km)
+- [The Invisible Pipeline: Defending CI/CD](https://medium.com/@1200km)
 
-I am a cybersecurity researcher and builder focused on creating practical, research-backed tools and workflows that help security teams move faster from raw artifacts to actionable insight.
+## Malware-Analysis Stack
 
-This GitHub profile includes:
-- AI-assisted security tooling
-- Malware-analysis utilities
-- Static-analysis pipelines
-- CTI research repositories
-- Security testing tools
-- Practical research and lab-oriented projects
+| Repo | What it produces |
+|---|---|
+| [AIDebug](https://github.com/anpa1200/AIDebug) | Function explanations, CFGs, YARA, JSON, HTML, ATT&CK mappings, IOC lists. |
+| [Android-Malware-Analysis](https://github.com/anpa1200/Android-Malware-Analysis) | APK static triage, YARA hits, MITRE output, VirusTotal context, Frida hooks. |
+| [Static-malware-Analysis-Orchestrator](https://github.com/anpa1200/Static-malware-Analysis-Orchestrator) | One-command triage, strings, PE imports, unpacking, LLM-ready reports. |
+| [Unpacker](https://github.com/anpa1200/Unpacker) | Packer detection and unpacking workflow for PE and ELF. |
+| [PE-Import-Analyzer](https://github.com/anpa1200/PE-Import-Analyzer) | DLL/API import explanations and analyst-friendly output. |
+| [String-Analyzer](https://github.com/anpa1200/String-Analyzer) | Printable strings with suspicious-content context. |
+| [Basic-File-Information-Gathering-Script](https://github.com/anpa1200/Basic-File-Information-Gathering-Script) | File metadata triage for unknown samples. |
 
-I also publish technical cybersecurity articles and research on Medium:
+## Vulnerability Management
 
-**Medium:** [medium.com/@1200km](https://medium.com/@1200km)
+- [cvss_4.0](https://github.com/anpa1200/cvss_4.0) — CVSS v4.0 BTE enrichment with NVD, CISA KEV, EPSS, and six asset profiles.
+- [CVSS v4.0 Field Guide](https://anpa1200.github.io/cvss/) — practitioner guide for vulnerability management teams.
+- [Medium article](https://medium.com/bugbountywriteup/cvss-v4-0-the-practical-field-guide-for-vulnerability-management-5b5a59728456) — practical CVSS-BTE explanation and examples.
 
----
+## Offensive Lab And Research
 
-## Featured Projects
+This is not the headline. It is the reason the CTI is grounded.
 
-### [Android-Malware-Analysis](https://github.com/anpa1200/Android-Malware-Analysis)
-AI-powered static analysis framework for Android APK files. Combines YARA rule matching, semantic component name analysis, weighted threat scoring, VirusTotal cross-validation, and multi-provider LLM classification (Claude, OpenAI, Gemini, or local Ollama) — producing MITRE ATT&CK-mapped reports and Frida instrumentation scripts entirely in the terminal. No sandbox, no uploads required.
+- [HexStrike-AI Guide](https://anpa1200.github.io/Hexstrike-AI-guide/) — AI-driven pentesting and security-research field guide.
+- [vulnerable-cloud-lab](https://github.com/anpa1200/vulnerable-cloud-lab) — Terraform-deployed vulnerable AWS and GCP labs.
+- [Passwords](https://github.com/anpa1200/Passwords) — personalized wordlists and credential-pair generation for authorized assessments.
+- [RTSP-brute-force-tool](https://github.com/anpa1200/RTSP-brute-force-tool) — authorized RTSP credential testing.
 
-> 📖 [Full guide on Medium](https://medium.com/@1200km/android-apk-analysis-tool-ai-powered-static-malware-analysis-in-your-terminal-4beb239dad12)
+## Writing
 
-### [AIDebug](https://github.com/anpa1200/AIDebug)
-AI-assisted malware reverse engineering debugger. Combines Capstone disassembly, FLIRT signature matching, automatic malware pattern detection (XOR loops, stack strings, API hashing, RDTSC timing, direct syscalls), per-function CFG visualization, and Claude AI analysis — all in a live terminal UI. Optional Frida dynamic mode adds runtime register snapshots, memory diffs, automatic unpacking detection, and network traffic capture. Generates HTML reports with inline CFG SVGs, YARA rules, and JSON export for SIEM/SOAR. Supports remote frida-server for INetSim-isolated sandbox workflows.
+- [Medium profile](https://medium.com/@1200km)
+- [Navigate My Blog](https://medium.com/@1200km/navigate-my-blog-all-articles-by-topic-ffd800ef5480)
+- [Blog Navigator](https://anpa1200.github.io/medium-blog-navigation/)
 
-> 📖 [Full engineering walkthrough on Medium](https://medium.com/@1200km/ai-powered-malware-debugger-that-explains-every-function-it-sees-2a28ef75df8a)
+Curated CTI and detection reads:
 
-### [StratusAI](https://github.com/anpa1200/stratus-ai)
-AI-powered multi-cloud security scanner for AWS and GCP. Scans 9 AWS modules, 7 GCP modules, and 4 external modules; routes findings through Claude, GPT-4o, or Gemini for attack chain analysis and prioritized reports. Deploys to AWS ECS Fargate or GCP Cloud Run Job via a single interactive wizard.
+1. [CTI Kill Chain](https://medium.com/@1200km/cti-kill-chain-an-analyst-guide-with-real-world-evidence-c3bef6fd2979)
+2. [Infrastructure Pivoting](https://infosecwriteups.com/infrastructure-pivoting-how-cti-analysts-expand-from-a-single-ioc-to-a-full-attacker-network)
+3. [Attribution Methodology](https://medium.com/@1200km/attribution-methodology-how-to-build-defend-and-challenge-a-threat-actor-attribution-071066437ced)
+4. [ATT&CK as a Working Tool](https://medium.com/@1200km/att-ck-as-a-working-tool-theory-and-hands-on-practical-usage-d63835c9f101)
+5. [Manual CTI vs. AI-Assisted CTI](https://medium.com/@1200km/manual-cti-vs-ai-assisted-cti-a-step-by-step-clock-comparison-ee08325203fc)
+6. [AI in Offensive Operations](https://medium.com/@1200km/ai-in-offensive-operations-how-threat-actors-use-artificial-intelligence-4eaeeaf029a9)
 
-> 📖 [Full engineering walkthrough on Medium](https://medium.com/@1200km/stratusai-i-built-an-ai-powered-cloud-security-scanner-for-aws-and-gcp-heres-everything-89c6702d3b84)
+## Contact
 
-### [AuditAI](https://github.com/anpa1200/AuditAI)
-AI-powered host vulnerability assessment and security auditing in a Dockerized workflow.
-
-### [cvss_4.0](https://github.com/anpa1200/cvss_4.0)
-Command-line CVSS v4.0 enrichment tool. Takes CVE IDs and produces CVSS-BTE scores — Base + Threat + Environmental — by pulling live data from CISA KEV, EPSS, and NVD. Outputs severity bands, SLA recommendations, and full BTE vector strings. Six built-in asset profiles: `internet_facing`, `internal_vlan`, `isolated_ot`, `dev_test`, `healthcare_ehr`, `pci_payment`. CSV and JSON export.
-
-> 📖 [CVSS v4.0: The Practical Field Guide for Vulnerability Management](https://medium.com/bugbountywriteup/cvss-v4-0-the-practical-field-guide-for-vulnerability-management-5b5a59728456)
-
-### [CTI](https://github.com/anpa1200/CTI)
-Open-source cyber threat intelligence reports with evidence-labeled assessments, SOC-oriented guidance, and defensive research.
-
-### [Static-malware-Analysis-Orchestrator](https://github.com/anpa1200/Static-malware-Analysis-Orchestrator)
-One-command static malware analysis pipeline: triage, strings, PE imports, unpacking, and LLM-ready reporting.
-
-### [Unpacker](https://github.com/anpa1200/Unpacker)
-Modular malware packer detection and unpacking workflow for PE and ELF samples.
-
-### [PE-Import-Analyzer](https://github.com/anpa1200/PE-Import-Analyzer)
-PE import table analysis for malware triage and reverse-engineering support.
-
-### [String-Analyzer](https://github.com/anpa1200/String-Analyzer)
-String extraction and analysis for binaries to surface indicators, suspicious content, and analyst-relevant context.
-
----
-
-## Additional Documentation Site
-
-### [CVSS v4.0 Field Guide](https://anpa1200.github.io/cvss/) | [Repository](https://github.com/anpa1200/cvss)
-Practitioner-focused CVSS v4.0 documentation for vulnerability management teams. Covers Base, Threat, and Environmental scoring, CVSS-BTE workflows, industry-specific examples, CVSS vs SSVC, scanner-output triage, and compliance-oriented evidence.
-
----
-
-## Repository Portfolio
-
-## AI-Powered Security
-
-### [AIDebug](https://github.com/anpa1200/AIDebug)
-AI-assisted malware reverse engineering debugger powered by Claude. Full pipeline: static PE/ELF parsing → recursive-descent disassembly → FLIRT library identification → malware pattern detection → CFG construction → Claude AI function explanation → optional Frida dynamic instrumentation.
-
-Key capabilities:
-- **FLIRT matching** — identifies msvcrt, zlib, OpenSSL functions; skips AI for them
-- **8 malware patterns** — XOR decryption loops, stack strings, API hash resolution, RDTSC timing checks, direct syscall stubs, NOP sleds, null-safe XOR, Base64 table references
-- **CFG visualization** — basic block decomposition; text in TUI, inline SVG in HTML reports
-- **Frida dynamic mode** — register/memory snapshots, memory diffs, unpacking detection (VirtualProtect RWX→RX), Winsock + WinInet traffic capture
-- **Remote frida-server** (`--frida-host`) — run AIDebug on host with real internet while malware runs in INetSim-isolated VM
-- **Reporting** — self-contained HTML report, YARA rules, JSON export for SIEM/SOAR
-
-Supports PE32/PE64/ELF across x86, x86-64, ARM, AArch64, RISC-V.
-
-> 📖 **Article:** [I Built an AI-Powered Malware Debugger That Explains Every Function It Sees](https://medium.com/@1200km/ai-powered-malware-debugger-that-explains-every-function-it-sees-2a28ef75df8a)
-
-### [StratusAI](https://github.com/anpa1200/stratus-ai)
-AI-powered multi-cloud security scanner covering AWS (9 modules) and GCP (7 modules) plus external endpoint scanning. Uses Claude, GPT-4o, or Gemini to synthesize findings into attack chains and prioritized remediation. Deploys serverlessly to AWS ECS Fargate or GCP Cloud Run Job via a unified interactive wizard (`wizard.sh`).
-
-Runs a full assessment in 2–4 minutes. Costs ~$0.01–$0.15 per scan depending on model. 125-test suite, zero live cloud calls in CI.
-
-> 📖 **Article:** [StratusAI: I Built an AI-Powered Cloud Security Scanner for AWS and GCP — Here's Everything](https://medium.com/@1200km/stratusai-i-built-an-ai-powered-cloud-security-scanner-for-aws-and-gcp-heres-everything-89c6702d3b84)
-
-### [AuditAI](https://github.com/anpa1200/AuditAI)
-AI-powered host vulnerability assessment and security auditing platform designed to support practical security review workflows.
-
----
-
-## Cyber Threat Intelligence
-
-### [cvss_4.0](https://github.com/anpa1200/cvss_4.0)
-CVSS v4.0 enrichment pipeline: pulls live NVD vectors, checks CISA KEV, queries EPSS, applies asset environmental profiles, and outputs CVSS-BTE vectors with severity bands and SLA recommendations. Single dependency (`requests`), six built-in profiles, CSV + JSON output.
-
-> 📖 [CVSS v4.0: The Practical Field Guide for Vulnerability Management](https://medium.com/bugbountywriteup/cvss-v4-0-the-practical-field-guide-for-vulnerability-management-5b5a59728456)
-
-### [CTI](https://github.com/anpa1200/CTI)
-Open-source CTI reports with evidence-labeled assessments, defensive guidance, and SOC-oriented research outputs.
-
----
-
-## Malware Analysis Tooling
-
-### [Android-Malware-Analysis](https://github.com/anpa1200/Android-Malware-Analysis)
-Terminal-native APK analysis pipeline: static analysis via androguard, YARA scanning (20 rules covering Anubis, Cerberus, Joker, SpyNote, Metasploit RAT, Stalkerware, and more), semantic component decoding, entropy-based obfuscation detection, VirusTotal lookup, and AI-generated reports with MITRE ATT&CK mappings and Frida hooks. Supports Claude, OpenAI GPT-4o, Google Gemini, and local Ollama.
-
-> 📖 **Article:** [Android APK Analysis Tool: AI-Powered Static Malware Analysis in Your Terminal](https://medium.com/@1200km/android-apk-analysis-tool-ai-powered-static-malware-analysis-in-your-terminal-4beb239dad12)
-
-### [AIDebug](https://github.com/anpa1200/AIDebug)
-Step-by-step malware debugger powered by Claude AI. Explains every function — name, summary, parameters, behaviors, MITRE ATT&CK technique, risk level — with optional Frida runtime hooks, memory diffs, unpacking detection, and network traffic capture. See [AI-Powered Security](#ai-powered-security) for full details.
-
-### [Static-malware-Analysis-Orchestrator](https://github.com/anpa1200/Static-malware-Analysis-Orchestrator)
-One-command pipeline for static malware analysis: triage, strings, PE import analysis, unpacking, and LLM-ready reporting.
-
-### [Unpacker](https://github.com/anpa1200/Unpacker)
-Malware packer detection and unpacking framework supporting workflows such as detect → unpack → validate.
-
-### [Basic-File-Information-Gathering-Script](https://github.com/anpa1200/Basic-File-Information-Gathering-Script)
-File metadata and characteristic extraction tool for fast triage of suspicious or unknown files.
-
-### [String-Analyzer](https://github.com/anpa1200/String-Analyzer)
-Printable-string extraction and analysis utility for malware analysts, reverse engineers, and forensic investigators.
-
-### [PE-Import-Analyzer](https://github.com/anpa1200/PE-Import-Analyzer)
-Command-line utility for PE import table analysis with analyst-friendly explanations and flexible output.
-
-### [Malware_analysis](https://github.com/anpa1200/Malware_analysis)
-General malware analysis repository containing additional tooling and related experimentation.
-
----
-
-## Security Testing and Offensive Research
-
-### [Passwords](https://github.com/anpa1200/Passwords)
-Security testing toolkit for generating personalized password wordlists, phone-based combinations, and encoded credential pairs for authorized assessments.
-
-### [RTSP-brute-force-tool](https://github.com/anpa1200/RTSP-brute-force-tool)
-Security testing utility for authorized RTSP authentication assessment and credential brute-force simulation.
-
-### [vulnerable-cloud-lab](https://github.com/anpa1200/vulnerable-cloud-lab)
-Terraform-based deployment of intentionally vulnerable GCP and AWS cloud environments for penetration testing training and security research.
-
----
-
-## System, Networking, and Education Projects
-
-### [SystemCheck](https://github.com/anpa1200/SystemCheck)
-System configuration inspection tool for quick visibility into Linux host health and configuration state.
-
-### [Networking](https://github.com/anpa1200/Networking)
-Networking-focused Python repository for related experiments and utilities.
-
-### [lpi](https://github.com/anpa1200/lpi)
-LPI 010-160 exam simulator and training project built with a shared question-bank approach.
-
----
-
-## Writing and Research
-
-I regularly publish technical articles, walkthroughs, and research on Medium, including work on:
-- AI-driven cybersecurity
-- Malware analysis
-- Static-analysis tooling
-- CTI research
-- Security automation
-- Offensive-security workflows
-
-**Recent articles:**
-
-- [Android APK Analysis Tool: AI-Powered Static Malware Analysis in Your Terminal](https://medium.com/@1200km/android-apk-analysis-tool-ai-powered-static-malware-analysis-in-your-terminal-4beb239dad12) — practical guide to the Android-Malware-Analysis tool: all 4 analysis phases explained, multi-provider AI setup (Claude/OpenAI/Gemini/Ollama), VirusTotal integration, real SpyNote/SpyMax Frida hook walkthrough, risk scoring formula, batch analysis, and architecture overview. (Mar 2026)
-
-- [CVSS v4.0: The Practical Field Guide for Vulnerability Management](https://medium.com/bugbountywriteup/cvss-v4-0-the-practical-field-guide-for-vulnerability-management-5b5a59728456) — complete practitioner guide: CVSS-B → CVSS-BT → CVSS-BTE lifecycle, exploit maturity decision logic (KEV + EPSS), environmental metric profiles, industry-specific scoring (healthcare, OT/ICS, PCI), Log4Shell/CitrixBleed/MOVEit/Erlang OTP worked examples, CVSS vs SSVC comparison, automation tool. (Mar 2026)
-
-- [AI in Offensive Operations: How Threat Actors Use AI](https://medium.com/@1200km) — rigorous evidence-based deep research report: chronological timeline 2019–2026, 10 major incidents (2019 voice cloning CEO fraud → 2024 Arup $25M deepfake → 2025 LAMEHUG LLM-querying malware → GTG-1002 agentic intrusion), ATT&CK-aligned TTP analysis, hard statistics, reality vs. hype, actor segmentation, 5-year forecast. 10 key judgments with confidence levels. (Apr 2026)
-
-- [Infrastructure Pivoting: How CTI Analysts Expand From a Single IOC to a Full Attacker Network](https://medium.com/@1200km) — field manual for tracing attacker infrastructure: 7 pivot types (passive DNS, reverse IP, ASN/hosting reuse, TLS certificates, subdomain enumeration, Shodan/Censys/FOFA, WHOIS), C2 network tracing worked example, common mistakes, interview-ready answers. Includes `autoWF.py` — automated pivot tool (VirusTotal + SecurityTrails + crt.sh). 32 min read. (Mar 2026)
-
-- [Attribution Methodology: How to Build, Defend, and Challenge a Threat Actor Attribution](https://medium.com/@1200km) — practitioner's guide for CTI analysts: 5-level attribution spectrum, 4 evidence types ranked by strength (IOC overlap → TTP consistency → operator mistakes), false flag detection, APT29/Cozy Bear/SVR worked exercise, confidence model, common mistakes, interview-ready frameworks. (Mar 2026)
-
-- [ATT&CK as a Working Tool: Theory and Hands-On Practical Usage](https://medium.com/@1200km) — practitioner's guide for CTI analysts, detection engineers, and threat hunters: framework anatomy, 14 tactics, 5 hands-on use cases (threat report mapping, gap analysis with Navigator, Sigma + ATT&CK detection engineering, threat hunting, adversary emulation), worked example, tooling reference, and quick-reference cheatsheet. 64 min read. (Mar 2026)
-
-- [I Built an AI-Powered Malware Debugger That Explains Every Function It Sees](https://medium.com/@1200km/ai-powered-malware-debugger-that-explains-every-function-it-sees-2a28ef75df8a) — full walkthrough of AIDebug: FLIRT matching, malware pattern detection, CFG visualization, Frida dynamic hooks, unpacking detection, network traffic capture, INetSim sandbox integration
-
-- [StratusAI: I Built an AI-Powered Cloud Security Scanner for AWS and GCP — Here's Everything](https://medium.com/@1200km/stratusai-i-built-an-ai-powered-cloud-security-scanner-for-aws-and-gcp-heres-everything-89c6702d3b84) — full engineering walkthrough: AWS + GCP scanner modules, multi-LLM routing, two-stage AI analysis, Terraform deployment on both clouds, 125-test suite
-
-**All articles:**
-[https://medium.com/@1200km](https://medium.com/@1200km)
-
----
-
-## Professional Links
-
-- **Medium:** [medium.com/@1200km](https://medium.com/@1200km)
-- **LinkedIn:** [linkedin.com/in/andrey-pautov-44718441](https://www.linkedin.com/in/andrey-pautov-44718441)
-
----
-
-## Current Focus
-
-I am currently focused on:
-- Building practical AI-powered cybersecurity tools
-- Expanding malware-analysis automation workflows
-- Publishing high-quality CTI research
-- Improving analyst productivity through structured tooling and automation
-- Connecting offensive research with real defensive value
-
----
-
-## Project Navigation
-
-If you are visiting this profile for the first time, start here:
-
-1. [HexStrike AI Guide](https://anpa1200.github.io/Hexstrike-AI-guide/) — flagship Docusaurus guide for AI-assisted security-tool orchestration labs
-2. [Israel Government Threat Actors CTI](https://anpa1200.github.io/israel-government-threat-actors-cti/) — flagship defensive CTI knowledge base for Israel-relevant public-sector exposure
-3. [Customer-Driven AI CTI Project](https://anpa1200.github.io/customer-driven-ai-cti-project/) — flagship CTI-to-detection methodology and practitioner template site
-4. [Android-Malware-Analysis](https://github.com/anpa1200/Android-Malware-Analysis) — AI-powered Android APK static analysis (YARA + semantic + VT + Claude/OpenAI/Gemini/Ollama)
-5. [AIDebug](https://github.com/anpa1200/AIDebug) — AI-assisted malware debugger (Claude + Frida + Capstone)
-6. [StratusAI](https://github.com/anpa1200/stratus-ai) — multi-cloud AI security scanner (AWS + GCP)
-7. [AuditAI](https://github.com/anpa1200/AuditAI)
-8. [CVSS v4.0 Field Guide](https://anpa1200.github.io/cvss/) — Docusaurus guide for practical CVSS v4.0 vulnerability management
-9. [cvss_4.0](https://github.com/anpa1200/cvss_4.0) — CVSS v4.0 BTE enrichment tool (KEV + EPSS + asset profiles)
-10. [CTI](https://github.com/anpa1200/CTI)
-11. [Static-malware-Analysis-Orchestrator](https://github.com/anpa1200/Static-malware-Analysis-Orchestrator)
-12. [Unpacker](https://github.com/anpa1200/Unpacker)
-13. [PE-Import-Analyzer](https://github.com/anpa1200/PE-Import-Analyzer)
-14. [String-Analyzer](https://github.com/anpa1200/String-Analyzer)
-15. [Basic-File-Information-Gathering-Script](https://github.com/anpa1200/Basic-File-Information-Gathering-Script)
-16. [Passwords](https://github.com/anpa1200/Passwords)
-17. [RTSP-brute-force-tool](https://github.com/anpa1200/RTSP-brute-force-tool)
-18. [vulnerable-cloud-lab](https://github.com/anpa1200/vulnerable-cloud-lab)
-19. [SystemCheck](https://github.com/anpa1200/SystemCheck)
-20. [Malware_analysis](https://github.com/anpa1200/Malware_analysis)
-21. [lpi](https://github.com/anpa1200/lpi)
-22. [Networking](https://github.com/anpa1200/Networking)
-
----
-
-## Philosophy
-
-I believe security tooling should be:
-- Practical
-- Transparent
-- Research-driven
-- Analyst-friendly
-- Easy to integrate into real workflows
-
-My goal is to build tools and research that are not only technically strong, but operationally useful.
-
----
-
-# Cybersecurity Research • Practical Tooling • Intelligence-Driven Engineering
+- Site: https://anpa1200.github.io
+- Medium: https://medium.com/@1200km
+- LinkedIn: https://www.linkedin.com/in/andrey-pautov/
+- Twitter/X: https://x.com/AndreyPa5
+- PayPal: [user: confirm donation URL]
+
+I write CTI like the operator is still moving and the SOC has to act today.
