@@ -24,8 +24,10 @@ Medium and GitHub are my public proof-of-work. The Docusaurus sites are the stru
 | **Israel Government Threat Actors CTI** | Applied sector/actor CTI. Public-source defensive knowledge base for threat actors, personas, malware families, TTPs, detection opportunities, and Israeli public-sector / critical-infrastructure exposure. | [Site](https://anpa1200.github.io/israel-government-threat-actors-cti/) · [Repo](https://github.com/anpa1200/israel-government-threat-actors-cti) · [Reports](https://github.com/anpa1200/CTI) |
 | **Customer-Driven AI CTI Project** | Delivery methodology. Gate-controlled CTI-to-detection workflow from customer requirements, PIRs/SIRs, source evaluation, and evidence handling to detection backlogs, SOC handoff, executive reporting, and measurable defensive outcomes. | [Site](https://anpa1200.github.io/customer-driven-ai-cti-project/) · [Repo](https://github.com/anpa1200/customer-driven-ai-cti-project) · [Article](https://medium.com/@1200km/customer-driven-ai-cti-project-c0db3cdc1830) |
 | **OpenCTI Intelligent Shield** | CTI platform engineering. OpenCTI deployment and analyst-reviewed enrichment workflow covering platform operations, connector design, STIX-oriented workflows, review gates, enrichment limitations, and practical CTI infrastructure. | [Repo](https://github.com/anpa1200/opencti-intelligent-shield) · [Article](https://medium.com/@1200km/the-intelligent-shield-057c9b4b9394) |
-| **CTI Reports** | Evidence-labeled reporting on Handala / Void Manticore, Sandworm / APT44, MuddyWater / Seedworm, and related defensive guidance. Labels separate observed, reported, assessed, and claimed material. | [Repo](https://github.com/anpa1200/CTI) |
-| **autoWF** | IOC-to-infrastructure pivoting scaffold for passive DNS, reverse IP, ASN/hosting reuse, TLS certificates, subdomain enumeration, internet search, and WHOIS pivots. | [Repo](https://github.com/anpa1200/autoWF) · [Article](https://infosecwriteups.com/infrastructure-pivoting-how-cti-analysts-expand-from-a-single-ioc-to-a-full-attacker-network) |
+| **CVSS v4.0 Field Guide** | Practical guide for vulnerability prioritization, scoring logic, exploitability context, and decision support. | [Guide](https://anpa1200.github.io/cvss/) · [Tool repo](https://github.com/anpa1200/cvss_4.0) · [Article](https://medium.com/bugbountywriteup/cvss-v4-0-the-practical-field-guide-for-vulnerability-management-5b5a59728456) |
+| **HexStrike AI Guide** | AI-assisted authorized security research guide. Supporting offensive-informed defensive work, not the main professional identity. | [Guide](https://anpa1200.github.io/Hexstrike-AI-guide/) · [Repo](https://github.com/anpa1200/Hexstrike-AI-guide) |
+
+Related supporting CTI assets: [CTI reports](https://github.com/anpa1200/CTI), [autoWF](https://github.com/anpa1200/autoWF), [Customer-Driven AI CTI Template](https://anpa1200.github.io/customer-driven-ai-cti-project-template/).
 
 ## Best-Fit Roles
 
@@ -36,6 +38,17 @@ Medium and GitHub are my public proof-of-work. The Docusaurus sites are the stru
 - Security Research Engineer
 - Intel delivery / customer-facing CTI
 - SOC enablement / detection-content role
+- OpenCTI / CTI platform-oriented security role
+
+## CTI Portfolio Review Path
+
+| Time | Review path |
+|---|---|
+| 5 minutes | [Portfolio hub](https://anpa1200.github.io/) -> [CTI Analyst Field Manual](https://anpa1200.github.io/cti-analyst-field-manual/) -> [CTI Portfolio One-Pager](CTI_PORTFOLIO_ONEPAGER.md). |
+| 15 minutes | Add [Israel Government Threat Actors CTI](https://anpa1200.github.io/israel-government-threat-actors-cti/), [Customer-Driven AI CTI Project](https://anpa1200.github.io/customer-driven-ai-cti-project/), and [OpenCTI Intelligent Shield](https://github.com/anpa1200/opencti-intelligent-shield). |
+| Deep technical review | Inspect [CTI reports](https://github.com/anpa1200/CTI), [cti-detection-pack](https://github.com/anpa1200/cti-detection-pack), [AIDebug](https://github.com/anpa1200/AIDebug), and [Android-Malware-Analysis](https://github.com/anpa1200/Android-Malware-Analysis). |
+
+Full markdown path: [hiring-manager-review-path.md](hiring-manager-review-path.md).
 
 ## Core Skills Demonstrated
 

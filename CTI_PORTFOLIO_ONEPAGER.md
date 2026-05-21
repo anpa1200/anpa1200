@@ -20,6 +20,7 @@ Public proof-of-work:
 - Security Research Engineer
 - Intel delivery / customer-facing CTI
 - SOC enablement / detection-content role
+- OpenCTI / CTI platform-oriented security role
 
 ## Flagship Projects
 
@@ -29,7 +30,8 @@ Public proof-of-work:
 | Israel Government Threat Actors CTI | Applied public-source sector CTI for Israeli public-sector and critical-infrastructure exposure: actors, personas, malware families, TTPs, detection opportunities, and defensive context. | https://anpa1200.github.io/israel-government-threat-actors-cti/ |
 | Customer-Driven AI CTI Project | Gate-controlled CTI-to-detection delivery methodology from requirements and PIRs/SIRs to evidence handling, detection backlog, SOC handoff, executive reporting, and defensive outcomes. | https://anpa1200.github.io/customer-driven-ai-cti-project/ |
 | OpenCTI Intelligent Shield | CTI platform engineering: OpenCTI deployment, connector design, STIX-oriented workflows, analyst-reviewed enrichment, review limitations, and operational CTI infrastructure. | https://github.com/anpa1200/opencti-intelligent-shield |
-| CTI Reports | Evidence-labeled reporting that separates observed, reported, assessed, and claimed material. | https://github.com/anpa1200/CTI |
+| CVSS v4.0 Field Guide | Vulnerability prioritization, scoring logic, exploitability context, and decision support. | https://anpa1200.github.io/cvss/ |
+| HexStrike AI Guide | AI-assisted authorized security research guide used as supporting offensive-informed defensive context. | https://anpa1200.github.io/Hexstrike-AI-guide/ |
 
 ## CTI Skills Demonstrated
 
@@ -48,6 +50,14 @@ Public proof-of-work:
 - YARA and malware-analysis outputs from supporting tools.
 - CVE prioritization context using KEV, EPSS, CVSS, and asset profile logic.
 - SOC-usable summaries with evidence, gaps, assumptions, confidence, and operational use.
+
+## OpenCTI / CTI Platform Work
+
+- OpenCTI deployment and workflow notes.
+- Connector and enrichment design considerations.
+- STIX-oriented workflows.
+- Analyst-reviewed enrichment and review gates.
+- Enrichment limitations and operational CTI infrastructure concerns.
 
 ## AI-Assisted CTI Workflow Experience
 
