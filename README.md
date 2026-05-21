@@ -28,11 +28,7 @@ Medium and GitHub are my public proof-of-work. The Docusaurus sites are the stru
 | **CTI Reports** | Evidence-labeled reporting on Handala / Void Manticore, Sandworm / APT44, MuddyWater / Seedworm, and related defensive guidance. Labels separate observed, reported, assessed, and claimed material. | [Repo](https://github.com/anpa1200/CTI) |
 | **autoWF** | IOC-to-infrastructure pivoting scaffold for passive DNS, reverse IP, ASN/hosting reuse, TLS certificates, subdomain enumeration, internet search, and WHOIS pivots. | [Repo](https://github.com/anpa1200/autoWF) · [Article](https://infosecwriteups.com/infrastructure-pivoting-how-cti-analysts-expand-from-a-single-ioc-to-a-full-attacker-network) |
 
-## CTI Portfolio Review Path
-
-### For Hiring Managers
-
-Best-fit roles:
+## Best-Fit Roles
 
 - CTI Analyst
 - Threat Intelligence Researcher
@@ -41,28 +37,6 @@ Best-fit roles:
 - Security Research Engineer
 - Intel delivery / customer-facing CTI
 - SOC enablement / detection-content role
-
-### 5-Minute Review
-
-1. Start with the [portfolio hub](https://anpa1200.github.io/).
-2. Open the [CTI Analyst Field Manual](https://anpa1200.github.io/cti-analyst-field-manual/).
-3. Skim the [CTI Portfolio One-Pager](CTI_PORTFOLIO_ONEPAGER.md).
-4. Use the [Hiring Manager Review Path](HIRING_MANAGER_REVIEW_PATH.md).
-5. Read one article: [CTI Kill Chain](https://medium.com/@1200km/cti-kill-chain-an-analyst-guide-with-real-world-evidence-c3bef6fd2979).
-
-### 15-Minute Review
-
-1. Review [Israel Government Threat Actors CTI](https://anpa1200.github.io/israel-government-threat-actors-cti/) for applied sector CTI.
-2. Review [Customer-Driven AI CTI Project](https://anpa1200.github.io/customer-driven-ai-cti-project/) for delivery workflow.
-3. Read [Attribution Methodology](https://medium.com/@1200km/attribution-methodology-how-to-build-defend-and-challenge-a-threat-actor-attribution-071066437ced).
-4. Read [Infrastructure Pivoting](https://infosecwriteups.com/infrastructure-pivoting-how-cti-analysts-expand-from-a-single-ioc-to-a-full-attacker-network).
-
-### Deep Technical Review
-
-1. Inspect [CTI](https://github.com/anpa1200/CTI) for evidence labels, report structure, and confidence discipline.
-2. Inspect [opencti-intelligent-shield](https://github.com/anpa1200/opencti-intelligent-shield) for CTI platform engineering and analyst-reviewed enrichment.
-3. Inspect [AIDebug](https://github.com/anpa1200/AIDebug) and [Android-Malware-Analysis](https://github.com/anpa1200/Android-Malware-Analysis) for malware-analysis outputs that support detections.
-4. Inspect [cti-detection-pack](https://github.com/anpa1200/cti-detection-pack) and [threat-hunting-hypotheses](https://github.com/anpa1200/threat-hunting-hypotheses) for detection-oriented artifacts.
 
 ## Core Skills Demonstrated
 
