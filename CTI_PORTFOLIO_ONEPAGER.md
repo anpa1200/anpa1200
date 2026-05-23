@@ -27,6 +27,7 @@ Public proof-of-work:
 | Project | What it demonstrates | Links |
 |---|---|---|
 | CTI Analyst Field Manual | Evidence discipline, source reliability, confidence language, attribution caution, infrastructure pivoting, ATT&CK usage, hunting hypotheses, detection backlog, SOC handoff, and reusable analyst templates. | https://anpa1200.github.io/cti-analyst-field-manual/ |
+| Operation Desert Hydra | Complete CTI-to-detection pipeline: 71 source candidates → 8 promoted (CISA, INCD, vendor) → 10 procedures with evidence labels → OpenCTI knowledge graph → 11 detection records (SIEM-agnostic pseudologic) → benign Windows 10 lab → Kibana proof screenshots. 14 PASS / 1 PARTIAL / 1 FAIL across 16 rule checks. 16/21 ATT&CK techniques (76%) fully lab-validated. Failures documented with root cause. One-command reproducible. | https://anpa1200.github.io/operation-desert-hydra/ · Detection Atlas: https://anpa1200.github.io/operation-desert-hydra/docs/phase-4-detection-atlas · Validation: https://anpa1200.github.io/operation-desert-hydra/docs/phase-5-results |
 | Israel Government Threat Actors CTI | Applied public-source sector CTI for Israeli public-sector and critical-infrastructure exposure: actors, personas, malware families, TTPs, detection opportunities, and defensive context. | https://anpa1200.github.io/israel-government-threat-actors-cti/ |
 | Customer-Driven AI CTI Project | Gate-controlled CTI-to-detection delivery methodology from requirements and PIRs/SIRs to evidence handling, detection backlog, SOC handoff, executive reporting, and defensive outcomes. | https://anpa1200.github.io/customer-driven-ai-cti-project/ |
 | OpenCTI Intelligent Shield | CTI platform engineering: OpenCTI deployment, connector design, STIX-oriented workflows, analyst-reviewed enrichment, review limitations, and operational CTI infrastructure. | https://github.com/anpa1200/opencti-intelligent-shield |
@@ -44,8 +45,9 @@ Public proof-of-work:
 
 ## Detection / SOC Outputs
 
-- Detection-ready hypotheses.
-- ATT&CK candidate mappings requiring evidence review.
+- **Operation Desert Hydra**: 11 detection records with SIEM-agnostic pseudologic (Sigma, KQL, Elastic JSON, SPL). Coverage scores: 5 = lab-validated multi-source, 4 = lab-validated single-source, 3 = validation incomplete or failed. 14 PASS / 1 PARTIAL / 1 FAIL across 16 rule checks. All failures documented with root cause and fix path.
+- Detection-ready hypotheses with telemetry requirements and false-positive class notes.
+- ATT&CK candidate mappings requiring evidence review before production use.
 - IOC pivot notes and infrastructure graphs.
 - YARA and malware-analysis outputs from supporting tools.
 - CVE prioritization context using KEV, EPSS, CVSS, and asset profile logic.
@@ -53,6 +55,7 @@ Public proof-of-work:
 
 ## OpenCTI / CTI Platform Work
 
+- **Operation Desert Hydra**: Self-hosted OpenCTI 6.2 — MuddyWater intrusion set, 9 malware families, 4 tools, 21 ATT&CK techniques, 20 source reports. pycti import script with idempotent read-before-create. STIX 2.1 createdBy references the analyst identity, not the threat actor.
 - OpenCTI deployment and workflow notes.
 - Connector and enrichment design considerations.
 - STIX-oriented workflows.
