@@ -1,6 +1,8 @@
 # Andrey Pautov
 
-[Main portfolio hub: anpa1200.github.io](https://anpa1200.github.io/) — start here for CTI-to-detection work, Docusaurus field guides, security tooling, Medium research, and contact links.
+[GitHub start-here repo](https://github.com/anpa1200/start-here) — canonical GitHub entry point for the 1200km CTI-to-detection, malware-analysis, AI-security, and practical lab ecosystem.
+
+[Main portfolio hub: 1200km.com](https://1200km.com/) · [Public footprint](https://1200km.com/projects.html) · [Medium](https://medium.com/@1200km)
 
 [Support this work via PayPal](https://www.paypal.com/donate/?business=W3XDKS7J9XTCG&no_recurring=0&item_name=Buy+me+a+coffee+%28PayPal%29+%E2%80%94+Keep+the+lab+running&currency_code=USD)
 
@@ -13,6 +15,8 @@ Cybersecurity researcher and CTI-to-detection practitioner focused on turning th
 ![Medium followers](https://img.shields.io/badge/Medium%20followers-1.3K-black)
 ![Python](https://img.shields.io/badge/Python-primary-blue)
 ![LinkedIn](https://img.shields.io/badge/LinkedIn-andrey--pautov-blue)
+[![Start Here](https://img.shields.io/badge/Start%20Here-GitHub%20index-blue)](https://github.com/anpa1200/start-here)
+[![Public Footprint](https://img.shields.io/badge/Public%20footprint-1200km.com%2Fprojects-blue)](https://1200km.com/projects.html)
 
 Medium and GitHub are my public proof-of-work. The Docusaurus sites are the structured versions of the work: field manuals, repeatable CTI-to-detection methods, sector CTI, platform notes, and practitioner guides.
 
