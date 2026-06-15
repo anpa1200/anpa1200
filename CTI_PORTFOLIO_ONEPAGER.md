@@ -7,7 +7,7 @@ Cybersecurity researcher and CTI-to-detection practitioner focused on turning th
 Public proof-of-work:
 
 - GitHub: https://github.com/anpa1200
-- Portfolio hub: https://anpa1200.github.io/
+- Portfolio hub: https://1200km.com/
 - Medium: https://medium.com/@1200km
 - LinkedIn: https://www.linkedin.com/in/andrey-pautov/
 
@@ -26,13 +26,13 @@ Public proof-of-work:
 
 | Project | What it demonstrates | Links |
 |---|---|---|
-| CTI Analyst Field Manual | Evidence discipline, source reliability, confidence language, attribution caution, infrastructure pivoting, ATT&CK usage, hunting hypotheses, detection backlog, SOC handoff, and reusable analyst templates. | https://anpa1200.github.io/cti-analyst-field-manual/ |
-| Operation Desert Hydra | Complete CTI-to-detection pipeline: 71 source candidates → 8 promoted (CISA, INCD, vendor) → 10 procedures with evidence labels → OpenCTI knowledge graph → 11 detection records (SIEM-agnostic pseudologic) → benign Windows 10 lab → Kibana proof screenshots. 14 PASS / 1 PARTIAL / 1 FAIL across 16 rule checks. 16/21 ATT&CK techniques (76%) fully lab-validated. Failures documented with root cause. One-command reproducible. | https://anpa1200.github.io/operation-desert-hydra/ · Detection Atlas: https://anpa1200.github.io/operation-desert-hydra/docs/phase-4-detection-atlas · Validation: https://anpa1200.github.io/operation-desert-hydra/docs/phase-5-results |
-| Israel Government Threat Actors CTI | Applied public-source sector CTI for Israeli public-sector and critical-infrastructure exposure: actors, personas, malware families, TTPs, detection opportunities, and defensive context. | https://anpa1200.github.io/israel-government-threat-actors-cti/ |
-| Customer-Driven AI CTI Project | Gate-controlled CTI-to-detection delivery methodology from requirements and PIRs/SIRs to evidence handling, detection backlog, SOC handoff, executive reporting, and defensive outcomes. | https://anpa1200.github.io/customer-driven-ai-cti-project/ |
+| CTI Analyst Field Manual | Evidence discipline, source reliability, confidence language, attribution caution, infrastructure pivoting, ATT&CK usage, hunting hypotheses, detection backlog, SOC handoff, and reusable analyst templates. | https://1200km.com/cti-analyst-field-manual/ |
+| Operation Desert Hydra | Complete CTI-to-detection pipeline: 71 source candidates → 8 promoted (CISA, INCD, vendor) → 10 procedures with evidence labels → OpenCTI knowledge graph → 11 detection records (SIEM-agnostic pseudologic) → benign Windows 10 lab → Kibana proof screenshots. 14 PASS / 1 PARTIAL / 1 FAIL across 16 rule checks. 16/21 ATT&CK techniques (76%) fully lab-validated. Failures documented with root cause. One-command reproducible. | https://1200km.com/operation-desert-hydra/ · Detection Atlas: https://1200km.com/operation-desert-hydra/docs/phase-4-detection-atlas · Validation: https://1200km.com/operation-desert-hydra/docs/phase-5-results |
+| Israel Government Threat Actors CTI | Applied public-source sector CTI for Israeli public-sector and critical-infrastructure exposure: actors, personas, malware families, TTPs, detection opportunities, and defensive context. | https://1200km.com/israel-government-threat-actors-cti/ |
+| Customer-Driven AI CTI Project | Gate-controlled CTI-to-detection delivery methodology from requirements and PIRs/SIRs to evidence handling, detection backlog, SOC handoff, executive reporting, and defensive outcomes. | https://1200km.com/customer-driven-ai-cti-project/ |
 | OpenCTI Intelligent Shield | CTI platform engineering: OpenCTI deployment, connector design, STIX-oriented workflows, analyst-reviewed enrichment, review limitations, and operational CTI infrastructure. | https://github.com/anpa1200/opencti-intelligent-shield |
-| CVSS v4.0 Field Guide | Vulnerability prioritization, scoring logic, exploitability context, and decision support. | https://anpa1200.github.io/cvss/ |
-| HexStrike AI Guide | AI-assisted authorized security research guide used as supporting offensive-informed defensive context. | https://anpa1200.github.io/Hexstrike-AI-guide/ |
+| CVSS v4.0 Field Guide | Vulnerability prioritization, scoring logic, exploitability context, and decision support. | https://1200km.com/cvss/ |
+| HexStrike AI Guide | AI-assisted authorized security research guide used as supporting offensive-informed defensive context. | https://1200km.com/Hexstrike-AI-guide/ |
 
 ## CTI Skills Demonstrated
 
@@ -85,14 +85,14 @@ Guardrails:
 ## Supporting Security Research
 
 - Malware analysis tooling: https://github.com/anpa1200/AIDebug and https://github.com/anpa1200/Android-Malware-Analysis
-- Vulnerability prioritization: https://github.com/anpa1200/cvss_4.0 and https://anpa1200.github.io/cvss/
+- Vulnerability prioritization: https://github.com/anpa1200/cvss_4.0 and https://1200km.com/cvss/
 - Cloud and Kubernetes security: https://github.com/anpa1200/stratus-ai and https://medium.com/@1200km/cti-research-kubernetes-cloud-native-threat-landscape-70373d6d7a87
-- Offensive-informed labs: https://anpa1200.github.io/Hexstrike-AI-guide/
+- Offensive-informed labs: https://1200km.com/Hexstrike-AI-guide/
 
 ## Contact
 
 - LinkedIn: https://www.linkedin.com/in/andrey-pautov/
 - GitHub: https://github.com/anpa1200
 - Medium: https://medium.com/@1200km
-- Portfolio: https://anpa1200.github.io/
+- Portfolio: https://1200km.com/
 - Support: https://www.paypal.com/donate/?business=W3XDKS7J9XTCG&no_recurring=0&item_name=Buy+me+a+coffee+%28PayPal%29+%E2%80%94+Keep+the+lab+running&currency_code=USD
