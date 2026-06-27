@@ -4,9 +4,9 @@ Snapshot date: 2026-06-27
 
 | Platform | Channel | Submit URL / Email | Work | Status | Blocker |
 |---|---|---|---|---|---|
-| Help Net Security | Email | press@helpnetsecurity.com | AdversaryGraph v4, MalwareGraph, AIDebug | Ready | Gmail token expired |
-| SecurityWeek | Email | press@securityweek.com | AdversaryGraph v4 | Ready | Gmail token expired |
-| Virus Bulletin | Email | editorial@virusbulletin.com | MalwareGraph, AIDebug methodology | Ready | Gmail token expired |
+| Help Net Security | Email | press@helpnetsecurity.com | AdversaryGraph v4, MalwareGraph, AIDebug | Sent 2026-06-27 | Gmail message `19f07cd1233cd3c1` |
+| SecurityWeek | Email | press@securityweek.com | AdversaryGraph v4 | Sent 2026-06-27 | Gmail message `19f07cd4627dd97c` |
+| Virus Bulletin | Email | editorial@virusbulletin.com | MalwareGraph, AIDebug methodology | Sent 2026-06-27 | Gmail message `19f07cdc8df8b731` |
 | Black Hat Europe Arsenal | Portal | https://blackhat.com/html/arsenal-call-for-tools.html | MalwareGraph + AIDebug | Ready | Portal/login required |
 | Black Hat Europe Briefings | Portal | https://blackhat.com/call-for-papers.html | AdversaryGraph methodology | Ready | Portal/login required |
 | BleepingComputer | Form | https://www.bleepingcomputer.com/news-tip/ | AdversaryGraph v4 | Ready | Form required |
