@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>External Submission Gmail Workaround</title>
+    <style>
+      body {
+        margin: 0;
+        background: #0b1020;
+        color: #e5edf8;
+        font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+      main {
+        width: min(1120px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 28px 0 56px;
+      }
+      h1 {
+        margin: 0 0 8px;
+        font-size: 28px;
+      }
+      p {
+        color: #a8b7cc;
+        line-height: 1.55;
+      }
+      article {
+        margin: 18px 0;
+        padding: 18px;
+        background: #111a2e;
+        border: 1px solid #293957;
+        border-radius: 8px;
+      }
+      h2 {
+        margin: 0 0 10px;
+        font-size: 18px;
+      }
+      label {
+        display: block;
+        margin: 12px 0 6px;
+        color: #8ea6c7;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+      input,
+      textarea {
+        width: 100%;
+        box-sizing: border-box;
+        border: 1px solid #334765;
+        border-radius: 6px;
+        background: #07101f;
+        color: #f8fbff;
+        padding: 10px;
+        font: 13px/1.5 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      }
+      textarea {
+        min-height: 260px;
+        resize: vertical;
+      }
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 12px;
+      }
+      button,
+      a.button {
+        border: 1px solid #3b82f6;
+        border-radius: 6px;
+        background: #2563eb;
+        color: #fff;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 38px;
+        padding: 0 14px;
+        font-weight: 700;
+        text-decoration: none;
+      }
+      button.secondary {
+        background: transparent;
+      }
+      .note {
+        padding: 12px;
+        border: 1px solid #854d0e;
+        background: #2a1a0a;
+        color: #fde68a;
+        border-radius: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>External Submission Gmail Workaround</h1>
+      <p class="note">
+        The Codex Gmail connector is blocked by a stale remote app-worker token. This page bypasses the
+        connector and opens Gmail compose in your browser. Review each message before sending.
+      </p>
+
+      <article data-message>
+        <h2>Help Net Security</h2>
+        <label>To</label>
+        <input data-to value="press@helpnetsecurity.com" />
+        <label>Subject</label>
+        <input data-subject value="Open-source AI-assisted CTI and malware-analysis platform release: AdversaryGraph v4, MalwareGraph, AIDebug" />
+        <label>Body</label>
+        <textarea data-body>Hello Help Net Security team,
+
+I am sharing a new open-source/source-available security research and tooling release that may fit your audience of security practitioners and analysts: AdversaryGraph v4, with the related MalwareGraph and AIDebug malware-analysis workflow.
+
+AdversaryGraph is an AI-assisted CTI-to-detection workbench for ATT&CK mapping, actor similarity analysis, IOC enrichment, detection-gap review, STIX/OpenCTI handoff, and analyst validation. The v4 release adds a full Malware Analysis module with safe static analysis, decompilation/debug workflow views, clickable ATT&CK/TTP pivots, AI-assisted dynamic-analysis summaries, and analyst-ready malware research output.
+
+Related tools:
+
+- MalwareGraph: standalone safe static malware-analysis service for Linux/REMnux-style analyst workstations.
+- AIDebug: AI-assisted malware reverse-engineering debugger that produces function summaries, ATT&CK tags, IOC output, YARA seeds, and analyst reports.
+
+Links:
+
+- Project hub: https://1200km.com/adversarygraph/
+- Documentation: https://1200km.com/adversarygraph-docs/
+- Live threat matrix: https://1200km.com/threat-matrix/
+- AdversaryGraph repo: https://github.com/anpa1200/adversarygraph
+- MalwareGraph repo: https://github.com/anpa1200/malwaregraph
+- AIDebug repo: https://github.com/anpa1200/AIDebug
+- External validation: https://1200km.com/external-validation.html
+
+Key angle:
+
+This is not positioned as an autonomous malware verdict engine. The project is built around analyst validation: every AI-generated mapping, malware summary, similarity lead, and attribution hint is treated as an investigation lead that must be checked against evidence.
+
+I can provide screenshots, a short walkthrough, or a technical Q&A if useful.
+
+Best regards,
+Andrey Pautov
+https://github.com/anpa1200
+https://1200km.com/</textarea>
+        <div class="actions">
+          <button type="button" onclick="openGmail(this)">Open Gmail Compose</button>
+          <button class="secondary" type="button" onclick="copyBody(this)">Copy Body</button>
+          <button class="secondary" type="button" onclick="copyAll(this)">Copy Full Message</button>
+        </div>
+      </article>
+
+      <article data-message>
+        <h2>SecurityWeek</h2>
+        <label>To</label>
+        <input data-to value="press@securityweek.com" />
+        <label>Subject</label>
+        <input data-subject value="Research/tooling pitch: AdversaryGraph v4 adds AI-assisted malware analysis and OpenCTI-ready CTI workflows" />
+        <label>Body</label>
+        <textarea data-body>Hello SecurityWeek team,
+
+I would like to share a security research/tooling release for consideration: AdversaryGraph v4, an analyst-focused CTI-to-detection platform that now includes a malware-analysis module and OpenCTI-ready workflows.
+
+The platform connects ATT&CK mapping, actor/campaign similarity, IOC enrichment, detection-gap analysis, STIX/OpenCTI handoff, and malware-analysis outputs in a single browser workbench. The new v4 module adds safe static malware analysis, decompilation/debugger-style views, clickable ATT&CK/TTP pivots, AI-assisted function explanations, and structured dynamic-analysis summaries for analyst review.
+
+Relevant links:
+
+- Project hub: https://1200km.com/adversarygraph/
+- Documentation: https://1200km.com/adversarygraph-docs/
+- Live threat matrix: https://1200km.com/threat-matrix/
+- GitHub: https://github.com/anpa1200/adversarygraph
+- Validation page: https://1200km.com/external-validation.html
+
+Related tool repositories:
+
+- MalwareGraph: https://github.com/anpa1200/malwaregraph
+- AIDebug: https://github.com/anpa1200/AIDebug
+
+Why it may be useful to cover:
+
+- It is a practitioner-built CTI and malware-analysis platform rather than a marketing demo.
+- It emphasizes analyst validation, evidence review, and ATT&CK/TTP traceability instead of autonomous attribution.
+- It includes public docs, screenshots, reproducible local deployment guidance, and external contribution/validation tracking.
+
+I am happy to provide screenshots, a walkthrough, or additional technical background.
+
+Best regards,
+Andrey Pautov
+https://github.com/anpa1200
+https://1200km.com/</textarea>
+        <div class="actions">
+          <button type="button" onclick="openGmail(this)">Open Gmail Compose</button>
+          <button class="secondary" type="button" onclick="copyBody(this)">Copy Body</button>
+          <button class="secondary" type="button" onclick="copyAll(this)">Copy Full Message</button>
+        </div>
+      </article>
+
+      <article data-message>
+        <h2>Virus Bulletin</h2>
+        <label>To</label>
+        <input data-to value="editorial@virusbulletin.com" />
+        <label>Subject</label>
+        <input data-subject value="Malware-analysis research/tooling pitch: analyst-validated AI workflows with MalwareGraph and AIDebug" />
+        <label>Body</label>
+        <textarea data-body>Hello Virus Bulletin editorial team,
+
+I am sharing a malware-analysis tooling and methodology pitch that may be relevant for a Virus Bulletin article, blog item, or future conference consideration.
+
+The work consists of two related tools and one integrated platform module:
+
+- MalwareGraph: a safe static malware-analysis service for analyst workstations, with password-protected ZIP intake, hashing, string/IOC extraction, PE function graph recovery, packer and obfuscation signals, safe static UPX decompression, and graph-ready analyst output.
+- AIDebug: an AI-assisted malware reverse-engineering debugger that produces function-level explanations, behavior tags, ATT&CK mappings, IOC exports, YARA seed rules, JSON, and analyst reports.
+- AdversaryGraph Malware Analysis: an integrated browser workflow that connects malware findings to CTI, ATT&CK/TTP review, IOC enrichment, and analyst validation.
+
+The core research question is how to use AI in malware analysis without outsourcing judgment to the model. The workflow treats AI output as structured analyst-assistance data and keeps validation gaps explicit: unproven runtime control flow, missing entrypoint disassembly, unresolved imports, packer layers, network assumptions, and branch conditions are all surfaced for review.
+
+Links:
+
+- MalwareGraph: https://github.com/anpa1200/malwaregraph
+- AIDebug: https://github.com/anpa1200/AIDebug
+- AdversaryGraph docs: https://1200km.com/adversarygraph-docs/
+- Malware analysis docs: https://1200km.com/adversarygraph-docs/malware-analysis
+- External validation: https://1200km.com/external-validation.html
+
+Possible article angle:
+
+"AI-assisted malware analysis with explicit validation gaps: building feedback loops around static triage, debugger-style function stepping, and dynamic behavior summaries."
+
+I can provide screenshots, sample output using inert test files, or a more formal article outline if this is of interest.
+
+Best regards,
+Andrey Pautov
+https://github.com/anpa1200
+https://1200km.com/</textarea>
+        <div class="actions">
+          <button type="button" onclick="openGmail(this)">Open Gmail Compose</button>
+          <button class="secondary" type="button" onclick="copyBody(this)">Copy Body</button>
+          <button class="secondary" type="button" onclick="copyAll(this)">Copy Full Message</button>
+        </div>
+      </article>
+    </main>
+
+    <script>
+      function messageFrom(button) {
+        return button.closest("[data-message]");
+      }
+      function fields(article) {
+        return {
+          to: article.querySelector("[data-to]").value,
+          subject: article.querySelector("[data-subject]").value,
+          body: article.querySelector("[data-body]").value
+        };
+      }
+      function openGmail(button) {
+        const data = fields(messageFrom(button));
+        const url = "https://mail.google.com/mail/?view=cm&fs=1"
+          + "&to=" + encodeURIComponent(data.to)
+          + "&su=" + encodeURIComponent(data.subject)
+          + "&body=" + encodeURIComponent(data.body);
+        window.open(url, "_blank", "noopener,noreferrer");
+      }
+      async function copyBody(button) {
+        const data = fields(messageFrom(button));
+        await navigator.clipboard.writeText(data.body);
+        button.textContent = "Copied";
+      }
+      async function copyAll(button) {
+        const data = fields(messageFrom(button));
+        await navigator.clipboard.writeText("To: " + data.to + "\nSubject: " + data.subject + "\n\n" + data.body);
+        button.textContent = "Copied";
+      }
+    </script>
+  </body>
+</html>
