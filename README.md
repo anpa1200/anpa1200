@@ -84,6 +84,7 @@ These projects support the CTI-to-detection story. They are not the headline.
 | Vulnerability prioritization | [cvss_4.0](https://github.com/anpa1200/cvss_4.0), [CVSS v4.0 Field Guide](https://1200km.com/cvss/), [CVSS article](https://medium.com/bugbountywriteup/cvss-v4-0-the-practical-field-guide-for-vulnerability-management-5b5a59728456) |
 | Cloud and Kubernetes security | [stratus-ai](https://github.com/anpa1200/stratus-ai), [vulnerable-cloud-lab](https://github.com/anpa1200/vulnerable-cloud-lab), [Kubernetes CTI article](https://medium.com/@1200km/cti-research-kubernetes-cloud-native-threat-landscape-70373d6d7a87) |
 | Offensive-informed labs | [HexStrike-AI Guide](https://1200km.com/Hexstrike-AI-guide/), [Passwords](https://github.com/anpa1200/Passwords), [RTSP credential-testing tool](https://github.com/anpa1200/RTSP-brute-force-tool) |
+| Kali Linux packaging | 3 tools submitted and assigned to Kali 2026.2 milestone by g0tmi1k: [AIDebug](https://github.com/anpa1200/AIDebug), [AuditAI](https://github.com/anpa1200/AuditAI), [String-Analyzer](https://github.com/anpa1200/String-Analyzer) |
 
 ## Analytic Guardrails
 
