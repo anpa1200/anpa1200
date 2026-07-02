@@ -15,7 +15,7 @@ Cybersecurity researcher and CTI-to-detection practitioner focused on turning th
 ![Medium followers](https://img.shields.io/badge/Medium%20followers-1.4K-black)
 ![GitHub followers](https://img.shields.io/badge/GitHub%20followers-21-blue)
 ![Public repos](https://img.shields.io/badge/Public%20repos-81-blue)
-![Portfolio stars](https://img.shields.io/badge/Portfolio%20stars-85-yellow)
+![Portfolio stars](https://img.shields.io/badge/Portfolio%20stars-86-yellow)
 ![Portfolio forks](https://img.shields.io/badge/Portfolio%20forks-14-lightgrey)
 ![Python](https://img.shields.io/badge/Python-primary-blue)
 ![LinkedIn](https://img.shields.io/badge/LinkedIn-andrey--pautov-blue)
